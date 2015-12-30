@@ -1,0 +1,9 @@
+### File types to be ignored by git ###
+#OSX
+.DS_Store
+
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+/min
