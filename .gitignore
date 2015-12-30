@@ -7,3 +7,7 @@
 # General CodeKit files to ignore
 config.codekit
 /min
+
+
+### Sass cache ###
+scss/.sass-cache/
