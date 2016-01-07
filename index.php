@@ -1,14 +1,14 @@
+<?php
+$pageTitle = 'Nifty';
+$pageId = 'Start';
+?>
+
+
 <?php include 'incl/header.php'?>
 
 
 
 
-
-
-<p>hello world!</p>
-
-
-<a href=""></a>
 
 
 
