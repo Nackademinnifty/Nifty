@@ -23,6 +23,17 @@
         <![endif]-->
         
         
-        
-        <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
+      <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
+      <header>
+        <nav class="clear">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <h1 id="logo">Nifty<span>.</span></h1>
+      </header>
 
