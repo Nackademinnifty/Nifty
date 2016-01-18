@@ -5,6 +5,7 @@ $pageId = 'contact';
 
 
 <?php include 'incl/header.php'?>
+<h1>Contact us Now</h1>
 
 <form>
 	Name:<br>
@@ -15,5 +16,13 @@ $pageId = 'contact';
 	<input type="submit" value="Send">
 </form>
 
+
+<address>
+	Contact us for any thoughts or ideas, we reply as fast we can.
+	<a href="mailto:info@nifty.com">Mail us here</a>
+	You can also visit us at: <br>
+	ADDRESS HÄR. <br>
+	
+</address>
 
 <?php include 'incl/footer.php'?>
