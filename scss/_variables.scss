@@ -10,7 +10,12 @@ $gradient:hsla(258, 3%, 10%, 0.43);
 $baseFont:100%;
 $headings:'Arvo', serif; //Font för rubriker
 $text:'Raleway', sans-serif;  //Font för brödtext
+$logo:'Times Bold';  //Font för logotyp (bör ändras)
+    
 
+//Media queries
+$tablet-width: 768px;
+$desktop-width: 1024px;
 
 
 

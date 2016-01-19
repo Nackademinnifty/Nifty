@@ -126,17 +126,21 @@ td, th { padding: 0; }
 
 ol, ul { list-style: none; }
 
+html, body { overflow-x: hidden; }
+
 header { margin: 0; width: 100%; height: 100vh; background-color: #0A0000; }
-header nav { width: 70%; margin: 0 auto; }
-header nav ul { margin: 0; }
-header nav ul li { float: left; list-style-type: none; margin: 20px 50px; }
 
-nav a { color: #fff; font-size: 1em; text-decoration: none; padding: 10px; }
-nav a:hover { border-bottom: 2px solid #F50057; }
-
-#logo { font-family: "Arvo", serif; text-align: center; color: #fff; font-size: 10em; }
+#logo { font-family: "Times Bold"; text-align: center; color: #fff; font-size: 10em; }
 #logo span { color: #F50057; }
 
 .clear:after { content: ''; display: table; clear: both; }
 
 body#home a#home-, body#about a#about-, body#contact a#contact-, body#awards a#awards-, body#works a#works- { border-bottom: 2px solid #F50057; }
+
+nav { width: 70%; margin: 0 auto; }
+nav ul { margin: 0; }
+nav ul li { float: left; list-style-type: none; margin: 20px 50px; }
+
+nav a { color: #fff; font-size: 1em; text-decoration: none; padding: 10px; }
+nav a:hover { border-bottom: 2px solid #F50057; }
+@media (min-width: 768px) and (max-width: 1023px) { nav a { color: red; } }

@@ -24,7 +24,7 @@
         
         
       <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
-      <header>
+      <header class="navigation">
         <nav class="clear">
           <ul>
             <li><a id="home-"  href="index.php">Home</a></li>
