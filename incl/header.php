@@ -24,9 +24,8 @@
         <![endif]-->
         
         
-      <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
       <header>
-        <nav class="clear navigation">
+        <nav id="navigation" class="clear">
           <ul>
             <li><a id="home-"  href="index.php">Home</a></li>
             <li><a id="contact-"  href="contact.php">Contact</a></li>
@@ -36,8 +35,8 @@
         </nav>
         <h1 id="logo">Nifty<span>.</span></h1>
           <div class="menu">
-          <i class="fa fa-bars bars"></i>
-          <i class="fa fa-times times"></i>
+          <i id="bars" class="fa fa-bars"></i>
+          <i id="times" class="fa fa-times"></i>
           </div>
       </header>
 

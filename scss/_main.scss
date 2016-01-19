@@ -15,7 +15,7 @@ overflow-x: hidden;
 
 // Made the header cover part of viewport height and full width.
 header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     text-align: center;
@@ -29,11 +29,13 @@ header {
 
 #logo {
     font-family: $logo;
-    text-align: center;
     color: $mainFont;
     font-size: 8em;
+   
     @include desktop{
-    font-size: 10em;    
+    font-size: 10em;   
+    top:50%;
+    @include centerBoth;
         
     }
     

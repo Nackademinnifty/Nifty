@@ -5,6 +5,8 @@ $pageId = 'contact';
 
 
 <?php include 'incl/header.php'?>
+
+
 <h1>Contact us Now</h1>
 
 <form>
