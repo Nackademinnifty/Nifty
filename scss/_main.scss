@@ -1,47 +1,34 @@
-// Made the header cover part of viewport height and full width.
-header {
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: $dark;
-  
-  // START Navigation
-  nav {
-    width: 70%;
-    margin: 0 auto;
-    ul {
-      // Remove margin to place header all the way to the top.
-      margin: 0;
-      li{
-        float: left;
-        list-style-type: none;
-        margin: 20px 50px;
-      }
-    }
-  }
+//To avoid horizontal scrollbars
+html, body{
+overflow-x: hidden;    
+    
 }
 
-nav a{
-    color: $mainFont;
-    font-size: 1em;
-    text-decoration: none;
-  padding: 10px;
-    &:hover {
-      border-bottom: 2px solid $accentPink;
-    }
-} // END Navigation
+
+// Made the header cover part of viewport height and full width.
+header {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $dark;
+    // START Navigation
+
+}
+    
 
 #logo {
-  font-family: $headings;
-  text-align: center;
-  color: $mainFont;
-  font-size: 10em;
-  span{color: $accentPink;}
+    font-family: $logo;
+    text-align: center;
+    color: $mainFont;
+    font-size: 10em;
+    span {
+        color: $accentPink;
+    }
 }
 
 // Clearfix
 .clear:after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }

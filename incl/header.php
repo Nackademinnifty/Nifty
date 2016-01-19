@@ -24,14 +24,14 @@
         
         
       <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
-      <header>
+      <header class="navigation">
         <nav class="clear">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="#">Works</a></li>
-            <li><a href="#">About</a></li>
+            <li><a id="home-"  href="index.php">Home</a></li>
+            <li><a id="contact-"  href="contact.php">Contact</a></li>
+            <li><a id="awards-"  href="awards.php">Awards</a></li>
+            <li><a id="works-"  href="work.php">Works</a></li>
+            <li><a id="about-"  href="about.php">About</a></li>
           </ul>
         </nav>
         <h1 id="logo">Nifty<span>.</span></h1>
