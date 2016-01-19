@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Nifty';
-$pageId = 'Start';
+$pageId = 'home';
 ?>
 
 
