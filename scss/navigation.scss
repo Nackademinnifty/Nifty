@@ -1,31 +1,63 @@
-nav {
-    width: 70%;
-    margin: 0 auto;
+.navigation {
+   // display: none;
+    width: 100%;
+    height: 50%;
+    background-color: $gradient;
+    position: fixed;
+    bottom: 0;
+    
+    @include desktop{
+    display: block;    
+        
+    }
     ul {
-        // Remove margin to place header all the way to the top.
-        margin: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 2%;
         li {
-            float: left;
-            list-style-type: none;
-            margin: 20px 50px;
+            height: 25%;
+        }
+        a {
+            color: $mainFont;
+            font-family: $text;
+            font-size: 2em;
+            text-decoration: none;
+            padding: 10px;
+            text-transform: uppercase;
+            &:hover {
+                border-bottom: 2px solid $accentPink;
+            }
         }
     }
 }
 
-nav a {
-    color: $mainFont;
-    font-size: 1em;
-    text-decoration: none;
-    padding: 10px;
-    &:hover {
-        border-bottom: 2px solid $accentPink;
+.menu {
+    width: 18%;
+    height: 0;
+    padding: 9% 0;
+    border-radius: 50%;
+    background-color: $accentPink;
+    right: 5%;
+    bottom: 5%;
+    position: fixed;
+    display: none; 
+    
+    @include desktop{
+    display: none;    
+        
+    }    
+
+    .bars {
+        
+        color: #fff;
+        font-size: 2rem;
+        @include centerBoth;
+        
     }
     
-    @include tablet{
-    color:red;    
-        
-    } 
-    
-    
-    
-} // END Navigation
+    .times {
+        display: none;
+        color: #fff;
+        font-size: 2rem;     
+        }
+}

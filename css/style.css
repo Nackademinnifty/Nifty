@@ -126,21 +126,29 @@ td, th { padding: 0; }
 
 ol, ul { list-style: none; }
 
+* { padding: 0; margin: 0; }
+
 html, body { overflow-x: hidden; }
 
-header { margin: 0; width: 100%; height: 100vh; background-color: #0A0000; }
+header { position: absolute; top: 0; left: 0; text-align: center; width: 100%; height: 100vh; background-color: #0A0000; }
 
-#logo { font-family: "Times Bold"; text-align: center; color: #fff; font-size: 10em; }
+#logo { font-family: "Times Bold"; text-align: center; color: #fff; font-size: 8em; }
+@media (min-width: 1024px) { #logo { font-size: 10em; } }
 #logo span { color: #F50057; }
 
 .clear:after { content: ''; display: table; clear: both; }
 
-body#home a#home-, body#about a#about-, body#contact a#contact-, body#awards a#awards-, body#works a#works- { border-bottom: 2px solid #F50057; }
+body#home a#home-, body#about a#about-, body#contact a#contact-, body#awards a#awards-, body#works a#works- { color: #F50057; }
+@media (min-width: 1024px) { body#home a#home-, body#about a#about-, body#contact a#contact-, body#awards a#awards-, body#works a#works- { color: rgba(255, 255, 255, 0.8); border-bottom: 2px solid #F50057; } }
 
-nav { width: 70%; margin: 0 auto; }
-nav ul { margin: 0; }
-nav ul li { float: left; list-style-type: none; margin: 20px 50px; }
+.navigation { width: 100%; height: 50%; background-color: rgba(25, 25, 26, 0.93); position: fixed; bottom: 0; }
+@media (min-width: 1024px) { .navigation { display: block; } }
+.navigation ul { width: 100%; height: 100%; margin-top: 2%; }
+.navigation ul li { height: 25%; }
+.navigation ul a { color: #fff; font-family: "Raleway", sans-serif; font-size: 2em; text-decoration: none; padding: 10px; text-transform: uppercase; }
+.navigation ul a:hover { border-bottom: 2px solid #F50057; }
 
-nav a { color: #fff; font-size: 1em; text-decoration: none; padding: 10px; }
-nav a:hover { border-bottom: 2px solid #F50057; }
-@media (min-width: 768px) and (max-width: 1023px) { nav a { color: red; } }
+.menu { width: 18%; height: 0; padding: 9% 0; border-radius: 50%; background-color: #F50057; right: 5%; bottom: 5%; position: fixed; display: none; }
+@media (min-width: 1024px) { .menu { display: none; } }
+.menu .bars { color: #fff; font-size: 2rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.menu .times { display: none; color: #fff; font-size: 2rem; }

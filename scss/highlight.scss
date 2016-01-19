@@ -3,8 +3,18 @@ body#about a#about-,
 body#contact a#contact-,
 body#awards a#awards-,
 body#works a#works-,  {
-border-bottom: 2px solid $accentPink;    
+color: $accentPink;    
     
+    @include desktop{
+      color: $brightFont;      
+      border-bottom: 2px solid $accentPink;   
+        
+    }
+
+
 }
+
+
+
 
 
