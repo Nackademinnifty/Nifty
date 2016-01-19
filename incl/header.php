@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,7 +15,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     </head>
     <body<?php if(isset($pageId)) echo " id='$pageId' "; ?>>
         <!--[if lt IE 8]>
@@ -24,16 +25,19 @@
         
         
       <!--Lägga till navbaren här och markera nuvarande menyval mha $pageId-->
-      <header class="navigation">
-        <nav class="clear">
+      <header>
+        <nav class="clear navigation">
           <ul>
             <li><a id="home-"  href="index.php">Home</a></li>
             <li><a id="contact-"  href="contact.php">Contact</a></li>
-            <li><a id="awards-"  href="awards.php">Awards</a></li>
             <li><a id="works-"  href="work.php">Works</a></li>
             <li><a id="about-"  href="about.php">About</a></li>
           </ul>
         </nav>
         <h1 id="logo">Nifty<span>.</span></h1>
+          <div class="menu">
+          <i class="fa fa-bars bars"></i>
+          <i class="fa fa-times times"></i>
+          </div>
       </header>
 
