@@ -1,16 +1,23 @@
-
-   
 </main>
-   
-<footer>
+   <footer>
     <address>
+       <h1 id="footerLogo">Nifty<span>.</span></h1>
         <a href="mailto:info@nifty.com">Mail us</a>
         <p>Adress</p> 
         <p>Birger Jarlgatan 57</p> 
         <p>111 37 Stockholm</p>
     </address>
 
+            
+
+
 </footer>
+  
+</div>    
+   
+
+
+
 
 
 <script src="js/main.js"></script>

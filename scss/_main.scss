@@ -9,7 +9,8 @@ margin: 0;
 html, body{
 overflow-x: hidden;   
 background-color: $dark;   
-color:$mainFont;    
+color:$mainFont;   
+font-family:$text;    
     
     
 }
@@ -27,6 +28,17 @@ header {
     // START Navigation
 
 }
+
+main{
+position: relative;
+margin-top:0;    
+}
+
+wrapper{
+min-height: 100%;
+position: relative;
+    
+}
     
 
 #logo {
@@ -43,6 +55,29 @@ header {
     top:50%;
     @include centerBoth;    
     
+        
+    }
+    
+    span {
+        color: $accentPink;
+    }
+}
+
+#footerLogo {
+    display: block;
+    font-family: $logo;
+    color: $mainFont;
+    font-size: 3em;
+    //top:5%;
+    //left: 2%;
+    //position: absolute;
+   
+   
+    @include desktop{
+    font-size: 2em;   
+    top:50%;
+    //@include centerBoth;    
+  
         
     }
     
