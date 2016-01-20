@@ -11,3 +11,6 @@ config.codekit
 
 ### Sass cache ###
 scss/.sass-cache/
+
+## Temporary ignore style.css ##
+css/
