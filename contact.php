@@ -6,7 +6,7 @@ $pageId = 'contact';
 
 <?php include 'incl/header.php'?>
 
-
+<div class="wrapper">
 <h1>Contact us Now</h1>
 
 <form>
@@ -19,12 +19,16 @@ $pageId = 'contact';
 </form>
 
 
-<address>
-	Contact us for any thoughts or ideas, we reply as fast as we can.
-	<a href="mailto:info@nifty.com">Mail us here</a>
-	You can also visit us at: <br>
-	ADDRESS HÄR. <br>
+
+	<p>You can also mail us for any thoughts or ideas, we will reply as fast as we can.</p>
+	<address>
+		<a href="mailto:info@nifty.com">Mail us here</a>
+	</address>
 	
-</address>
+	<p>Visit us at:</p>
+	<p>Birger Jarlgatan 57, 111 37 Stockholm</p>
+	
+</div>
+	
 
 <?php include 'incl/footer.php'?>
