@@ -1,9 +1,9 @@
 //Colors
-$dark:#0A0000; //Bakgruden
+$dark:#0A0000;
 $accentPink:#F50057; //För tex knappen
 $brightFont:hsla(303, 4%, 100%, 0.8); //Genomskinlig vit text
 $mainFont: #fff; //Vit färg för brödtext
-$gradient:hsla(258, 3%, 10%, 0.93); 
+$gradient:hsla(258, 3%, 15%, 0.93); 
 
 
 //Fonts
@@ -11,11 +11,18 @@ $baseFont:100%;
 $headings:'Arvo', serif; //Font för rubriker
 $text:'Raleway', sans-serif;  //Font för brödtext
 $logo:'Times Bold';  //Font för logotyp (bör ändras)
+$lineHeight:100%;
     
 
 //Media queries
 $tablet-width: 768px;
 $desktop-width: 1024px;
+
+//Startpage backgrounds
+$backgrounds: 'journey', 'team', 'portfolio', 'contact';
+
+//Other
+$viewportSize: 100vh;
 
 
 

@@ -373,7 +373,14 @@ ol, ul {
   margin: 0; }
 
 html, body {
+<<<<<<< HEAD
   overflow-x: hidden; }
+=======
+  overflow-x: hidden;
+  background-color: #0A0000;
+  color: #fff;
+}
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee
 
 header {
   position: relative;
@@ -382,11 +389,16 @@ header {
   text-align: center;
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
   background-color: #0A0000; }
+=======
+}
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee
 
 #logo {
   font-family: "Times Bold";
   color: #fff;
+<<<<<<< HEAD
   font-size: 8em; }
   @media (min-width: 1024px) {
     #logo {
@@ -398,6 +410,26 @@ header {
       transform: translate(-50%, -50%); } }
   #logo span {
     color: #F50057; }
+=======
+  font-size: 7em;
+  top: 5%;
+  left: 2%;
+  position: absolute;
+}
+@media (min-width: 1024px) {
+  #logo {
+    font-size: 10em;
+    top: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+#logo span {
+  color: #F50057;
+}
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee
 
 .clear:after {
   content: '';
@@ -464,16 +496,69 @@ body#works a#works- {
   90% {
     height: 45%; }
   100% {
+<<<<<<< HEAD
     height: 50%; } }
 #navigation {
+=======
+    height: 50%;
+  }
+}
+@keyframes squeeze {
+  0% {
+    height: 75px;
+    width: 75px;
+  }
+  10% {
+    height: 76px;
+    width: 76px;
+  }
+  20% {
+    height: 77px;
+    width: 77px;
+  }
+  30% {
+    height: 78px;
+    width: 78px;
+  }
+  40% {
+    height: 79px;
+    width: 79px;
+  }
+  50% {
+    height: 80px;
+    width: 80px;
+  }
+  60% {
+    height: 76px;
+    width: 76px;
+  }
+  70% {
+    height: 76px;
+    width: 76px;
+  }
+  80% {
+    height: 76px;
+    width: 76px;
+  }
+  90% {
+    height: 76px;
+    width: 76px;
+  }
+  100% {
+    height: 76px;
+    width: 76px;
+  }
+}
+.jsNavigation {
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee
   animation-name: fadeUp;
-  animation-name: fadeDown;
   animation-duration: 0.2s;
   width: 100%;
   height: 50%;
-  background-color: rgba(25, 25, 26, 0.93);
+  background-color: rgba(38, 37, 39, 0.93);
   position: fixed;
   bottom: 0;
+<<<<<<< HEAD
   display: none; }
   @media (min-width: 1024px) {
     #navigation {
@@ -505,14 +590,93 @@ body#works a#works- {
       @media (min-width: 1024px) {
         #navigation ul a {
           font-size: 1.2em; } }
+=======
+  display: none;
+  z-index: 100;
+}
+.jsNavigation ul {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin: 0 auto;
+}
+.jsNavigation ul li {
+  height: 25%;
+  display: block;
+}
+@media (min-width: 1024px) {
+  .jsNavigation ul li {
+    height: 100%;
+  }
+}
+.jsNavigation ul a {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.jsNavigation ul a:hover {
+  border-bottom: 2px solid #F50057;
+}
+@media (min-width: 1024px) {
+  .jsNavigation ul a {
+    font-size: 1.2em;
+  }
+}
+
+.navigation {
+  position: absolute;
+  top: 2%;
+  display: block;
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+.navigation ul {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin: 0 auto;
+}
+.navigation ul li {
+  height: 25%;
+  display: inline-block;
+}
+@media (min-width: 1024px) {
+  .navigation ul li {
+    height: 100%;
+  }
+}
+.navigation ul a {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 50%;
+  position: absolute;
+}
+.navigation ul a:hover {
+  border-bottom: 2px solid #F50057;
+}
+@media (min-width: 1024px) {
+  .navigation ul a {
+    font-size: 1.2em;
+  }
+}
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee
 
 .menu {
+  display: none;
   width: 75px;
   height: 75px;
   border-radius: 37.5px;
   background-color: #F50057;
   right: 5%;
   bottom: 5%;
+<<<<<<< HEAD
   position: fixed; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .menu {
@@ -577,3 +741,98 @@ address a {
   color: #F50057; }
 
 /*# sourceMappingURL=style.css.map */
+=======
+  position: fixed;
+}
+.menu:active {
+  background-color: #f5002e;
+  animation-name: squeeze;
+  animation-duration: 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+}
+.menu #bars,
+.menu #times {
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+}
+.menu #times {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 20%;
+  min-height: 300px;
+  line-height: 300%;
+}
+
+.journey {
+  color: #fff;
+  width: 100%;
+  height: 90vh;
+  padding: 50px 50px;
+  background: no-repeat center/cover url(../img/journey.jpeg);
+}
+
+.team {
+  color: #fff;
+  width: 100%;
+  height: 90vh;
+  padding: 50px 50px;
+  background: no-repeat center/cover url(../img/team.jpeg);
+}
+
+.portfolio {
+  color: #fff;
+  width: 100%;
+  height: 90vh;
+  padding: 50px 50px;
+  background: no-repeat center/cover url(../img/portfolio.jpeg);
+}
+
+.contact {
+  color: #fff;
+  width: 100%;
+  height: 90vh;
+  padding: 50px 50px;
+  background: no-repeat center/cover url(../img/contact.jpeg);
+}
+
+.journey section {
+  width: 50%;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 2px 1px 3px rgba(0, 0, 0, 0.4);
+  float: left;
+}
+.journey a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 90px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #F50057;
+  float: left;
+}
+>>>>>>> 357a8b23cd4f56c24d4b17cf6f4eaf790b9ac2ee

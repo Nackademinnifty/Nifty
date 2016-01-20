@@ -25,7 +25,7 @@
         
         
       <header>
-        <nav id="navigation" class="clear">
+        <nav class="navigation">
           <ul>
             <li><a id="home-"  href="index.php">Home</a></li>
             <li><a id="contact-"  href="contact.php">Contact</a></li>
@@ -39,4 +39,6 @@
           <i id="times" class="fa fa-times"></i>
           </div>
       </header>
+      
+      <main>
 
