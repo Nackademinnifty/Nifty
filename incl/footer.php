@@ -5,8 +5,7 @@
  <footer>
     <address>
        <h1 id="footerLogo">Nifty<span>.</span></h1>
-        <a href="mailto:info@nifty.com">Mail us</a>
-        <p>Adress</p> 
+        <a href="mailto:info@nifty.com">info@nifty.com</a>
         <p>Birger Jarlgatan 57</p> 
         <p>111 37 Stockholm</p>
     </address>

@@ -756,6 +756,7 @@ footer address a, footer address p {
   font-size: 110%;
   font-weight: 500;
   letter-spacing: 1.1px;
+  text-decoration: none;
 }
 
 .journey {
