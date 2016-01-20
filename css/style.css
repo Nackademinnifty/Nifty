@@ -552,8 +552,8 @@ body#works a#works- {
   background: no-repeat center/cover url(../img/contact.jpeg); }
 
 .journey section {
-  width: 66.6666666667%;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6);
+  width: 50%;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 2px 1px 3px rgba(0, 0, 0, 0.4);
   float: left; }
 .journey a {
   text-decoration: none;
@@ -563,6 +563,5 @@ body#works a#works- {
   height: 20px;
   padding: 5px;
   border-radius: 10px;
-  text-shadow: -1px 0 0 rgba(0, 0, 0, 0.6), 2px 0 2px rgba(0, 0, 0, 0.5);
   background-color: #F50057;
   float: left; }
