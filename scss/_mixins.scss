@@ -127,6 +127,23 @@
 }
 
 }
+@mixin squeeze {
+
+@keyframes squeeze {
+    0%   {height:75px; width:75px; }
+    10%  {height:76px; width:76px;}
+    20%  {height:77px; width:77px;}
+    30%  {height:78px; width:78px;}
+    40%  {height:79px; width:79px;}
+    50%  {height:80px; width:80px;}
+    60%  {height:76px; width:76px;}
+    70%  {height:76px; width:76px;}
+    80%  {height:76px; width:76px;}
+    90%  {height:76px; width:76px;}
+    100% {height:76px; width:76px;}
+}
+
+}
 
 
 

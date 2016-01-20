@@ -1,0 +1,118 @@
+@include fadeUp;
+@include fadeDown;
+@include squeeze;
+
+.jsNavigation {
+    animation-name: fadeUp;
+    animation-duration: 0.2s;
+    width: 100%;
+    height: 50%;
+    background-color: $gradient;
+    position: fixed;
+    bottom: 0;
+    display: none;
+    z-index:100;
+    ul {
+        width: 100%;
+        height: 100%;
+        margin-top: 2%;
+        margin: 0 auto;
+        li {
+            height: 25%;
+            display: block;
+            @include desktop {
+                height: 100%;
+            }
+        }
+        a {
+            color: $mainFont;
+            font-family: $text;
+            font-size: 1.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover {
+                border-bottom: 2px solid $accentPink;
+            }
+            @include desktop {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+.navigation {
+    position: absolute;
+    top: 2%;
+    display: block;
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    z-index:1000;
+    ul {
+        width: 100%;
+        height: 100%;
+        margin-top: 2%;
+        margin: 0 auto;
+        li {
+            height: 25%;
+            display: inline-block;
+            @include desktop {
+                height: 100%;
+            }
+        }
+        a {
+            color: $mainFont;
+            font-family: $text;
+            font-size: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            top:50%;
+            position: absolute;
+            &:hover {
+                border-bottom: 2px solid $accentPink;
+            }
+            @include desktop {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+.menu {
+    display: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+    background-color: $accentPink;
+    right: 5%;
+    bottom: 5%;
+    position: fixed;
+    
+    
+    &:active{
+    background-color: adjust-hue($accentPink,10deg);   
+    animation-name: squeeze;
+    animation-duration: 0.2s;
+    border: 1px solid $brightFont;
+        
+    }
+    @include tablet {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+    }
+    @include desktop {
+        display: none;
+    }
+    #bars,
+    #times {
+        display: none;
+        color: #fff;
+        font-size: 2rem;
+        @include centerBoth;
+        z-index:2000;
+    }
+    #times {
+        display: none;
+    }
+}
