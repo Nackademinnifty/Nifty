@@ -13,4 +13,4 @@ config.codekit
 scss/.sass-cache/
 
 ## Temporary ignore style.css ##
-css/*
+css/style.css
