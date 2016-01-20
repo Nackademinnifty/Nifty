@@ -20,7 +20,7 @@ $pageId = 'contact';
 
 
 <address>
-	Contact us for any thoughts or ideas, we reply as fast we can.
+	Contact us for any thoughts or ideas, we reply as fast as we can.
 	<a href="mailto:info@nifty.com">Mail us here</a>
 	You can also visit us at: <br>
 	ADDRESS HÄR. <br>
