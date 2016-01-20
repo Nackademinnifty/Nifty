@@ -66,8 +66,7 @@
             font-size: 1em;
             text-decoration: none;
             text-transform: uppercase;
-            top:50%;
-            position: absolute;
+            padding:10px;
             &:hover {
                 border-bottom: 2px solid $accentPink;
             }

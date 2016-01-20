@@ -409,6 +409,7 @@ html, body {
   overflow-x: hidden;
   background-color: #0A0000;
   color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -418,6 +419,16 @@ header {
   text-align: center;
   width: 100%;
   height: 100vh;
+}
+
+main {
+  position: relative;
+  margin-top: 0;
+}
+
+wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 #logo {
@@ -439,6 +450,22 @@ header {
   }
 }
 #logo span {
+  color: #F50057;
+}
+
+#footerLogo {
+  display: block;
+  font-family: "Times Bold";
+  color: #fff;
+  font-size: 3em;
+}
+@media (min-width: 1024px) {
+  #footerLogo {
+    font-size: 2em;
+    top: 50%;
+  }
+}
+#footerLogo span {
   color: #F50057;
 }
 
@@ -654,8 +681,7 @@ body#works a#works- {
   font-size: 1em;
   text-decoration: none;
   text-transform: uppercase;
-  top: 50%;
-  position: absolute;
+  padding: 10px;
 }
 .navigation ul a:hover {
   border-bottom: 2px solid #F50057;
@@ -710,13 +736,26 @@ body#works a#works- {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: 0;
   width: 100%;
   text-align: center;
-  height: 20%;
-  min-height: 300px;
-  line-height: 300%;
+  height: 30%;
+  min-height: 500px;
+  line-height: 400%;
+}
+footer address {
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer address a, footer address p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 110%;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .journey {
