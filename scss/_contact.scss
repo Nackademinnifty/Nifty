@@ -1,0 +1,34 @@
+h1{
+	color: $mainFont;
+	font: $headings;
+	background-color: $dark;
+
+	
+}
+form{
+	color:$mainFont;
+	background-color:$dark;
+	font-family: $text;
+	padding:10px;
+}
+
+input{
+	margin-top: 5px; 
+	margin-bottom:10px;
+	color: $dark;
+	
+	//sendknapp
+	&:last-child{
+		width: 100%;
+		padding: 10px;
+		background-color:white;//ska knappen vara helvit?
+		border-radius: 5px;
+		
+	}
+}
+
+textarea{
+	color: $dark;
+	margin-top: 10px;
+	width: 100%;
+}
