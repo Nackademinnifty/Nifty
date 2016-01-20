@@ -1,0 +1,15 @@
+@each $background in $backgrounds {
+  .#{$background} {
+    color: $mainFont;
+    width: 100%;
+    height: $viewportSize - 10vh;
+    padding: 50px 50px;
+    background: no-repeat center/ cover url(../img/#{$background}.jpeg);
+  }
+}
+
+.journey {}
+.team {}
+.portfolio {}
+.contact {}
+
