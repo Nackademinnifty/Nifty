@@ -407,6 +407,8 @@ ol, ul {
 
 html, body {
   overflow-x: hidden;
+  background-color: #0A0000;
+  color: #fff;
 }
 
 header {
@@ -416,13 +418,15 @@ header {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: #0A0000;
 }
 
 #logo {
   font-family: "Times Bold";
   color: #fff;
-  font-size: 8em;
+  font-size: 7em;
+  top: 5%;
+  left: 2%;
+  position: absolute;
 }
 @media (min-width: 1024px) {
   #logo {
@@ -532,59 +536,138 @@ body#works a#works- {
     height: 50%;
   }
 }
-#navigation {
+@keyframes squeeze {
+  0% {
+    height: 75px;
+    width: 75px;
+  }
+  10% {
+    height: 76px;
+    width: 76px;
+  }
+  20% {
+    height: 77px;
+    width: 77px;
+  }
+  30% {
+    height: 78px;
+    width: 78px;
+  }
+  40% {
+    height: 79px;
+    width: 79px;
+  }
+  50% {
+    height: 80px;
+    width: 80px;
+  }
+  60% {
+    height: 76px;
+    width: 76px;
+  }
+  70% {
+    height: 76px;
+    width: 76px;
+  }
+  80% {
+    height: 76px;
+    width: 76px;
+  }
+  90% {
+    height: 76px;
+    width: 76px;
+  }
+  100% {
+    height: 76px;
+    width: 76px;
+  }
+}
+.jsNavigation {
   animation-name: fadeUp;
-  animation-name: fadeDown;
   animation-duration: 0.2s;
   width: 100%;
   height: 50%;
-  background-color: rgba(25, 25, 26, 0.93);
+  background-color: rgba(38, 37, 39, 0.93);
   position: fixed;
   bottom: 0;
   display: none;
+  z-index: 100;
 }
-@media (min-width: 1024px) {
-  #navigation {
-    display: none;
-    position: absolute;
-    top: 0;
-    display: block;
-    height: 10%;
-    background-color: transparent;
-  }
-}
-#navigation ul {
+.jsNavigation ul {
   width: 100%;
   height: 100%;
   margin-top: 2%;
+  margin: 0 auto;
 }
-#navigation ul li {
+.jsNavigation ul li {
   height: 25%;
+  display: block;
 }
 @media (min-width: 1024px) {
-  #navigation ul li {
+  .jsNavigation ul li {
     height: 100%;
-    display: inline-block;
   }
 }
-#navigation ul a {
+.jsNavigation ul a {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
-  padding: 10px;
   text-transform: uppercase;
 }
-#navigation ul a:hover {
+.jsNavigation ul a:hover {
   border-bottom: 2px solid #F50057;
 }
 @media (min-width: 1024px) {
-  #navigation ul a {
+  .jsNavigation ul a {
+    font-size: 1.2em;
+  }
+}
+
+.navigation {
+  position: absolute;
+  top: 2%;
+  display: block;
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+.navigation ul {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin: 0 auto;
+}
+.navigation ul li {
+  height: 25%;
+  display: inline-block;
+}
+@media (min-width: 1024px) {
+  .navigation ul li {
+    height: 100%;
+  }
+}
+.navigation ul a {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 50%;
+  position: absolute;
+}
+.navigation ul a:hover {
+  border-bottom: 2px solid #F50057;
+}
+@media (min-width: 1024px) {
+  .navigation ul a {
     font-size: 1.2em;
   }
 }
 
 .menu {
+  display: none;
   width: 75px;
   height: 75px;
   border-radius: 37.5px;
@@ -592,6 +675,12 @@ body#works a#works- {
   right: 5%;
   bottom: 5%;
   position: fixed;
+}
+.menu:active {
+  background-color: #f5002e;
+  animation-name: squeeze;
+  animation-duration: 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .menu {
@@ -605,14 +694,27 @@ body#works a#works- {
     display: none;
   }
 }
-.menu #bars, .menu #times {
+.menu #bars,
+.menu #times {
+  display: none;
   color: #fff;
   font-size: 2rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2000;
 }
 .menu #times {
   display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 20%;
+  min-height: 300px;
+  line-height: 300%;
 }
