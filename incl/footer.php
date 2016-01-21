@@ -1,19 +1,35 @@
 </main>
-   <footer>
-    <address>
-       <h1 id="footerLogo">Nifty<span>.</span></h1>
-        <a href="mailto:info@nifty.com">info@nifty.com</a>
-        <p>Birger Jarlgatan 57</p> 
-        <p>111 37 Stockholm</p>
-    </address>
-
-            
+<footer>
 
 
+    <div class="adress">
+        <address>
+            <h1 id="footerLogo">Nifty<span>.</span></h1>
+            <p>
+                <a href="mailto:info@nifty.com">info@nifty.com</a>
+            </p>
+            <span>.</span>
+            <p>Birger Jarlgatan 57</p> 
+            <span>.</span>
+            <p>111 37 Stockholm</p>
+            <span>.</span>
+             </address>
+    </div>
+    
+    <div class="map"><p>map</p></div>
+
+
+    <div class="social">
+        <div class="sociallinks">
+            <i id="facebook" class="fa fa-facebook"></i>
+            <i id="instagram" class="fa fa-instagram"></i>
+            <i id="twitter" class="fa fa-twitter"></i>
+        </div>
+    </div>
 </footer>
-  
-</div>    
-   
+
+</div>
+
 
 
 
