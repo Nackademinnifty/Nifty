@@ -14,8 +14,8 @@ h1{
 
 form{
 	color:$mainFont;
-	background-color:$dark;
-	font-family: $text;
+	//background-color:$dark;
+	//font-family: $text;
 }
 
 input{
@@ -43,7 +43,7 @@ textarea{
 	@extend input;
 }
 
-p{
+p {
 	margin: 10px;
 	background-color: $dark;
 	color: $mainFont;

@@ -2,6 +2,8 @@
 @include fadeDown;
 @include squeeze;
 
+
+
 .jsNavigation {
     animation-name: fadeUp;
     animation-duration: 0.2s;
@@ -32,6 +34,11 @@
             text-transform: uppercase;
             &:hover {
                 border-bottom: 2px solid $accentPink;
+               
+            } 
+            &:active {
+                color: $accentPink;
+                transform: scale(2,3);
             }
             @include desktop {
                 font-size: 1.2em;
@@ -40,14 +47,19 @@
     }
 }
 
-.navigation {
+.noJsNavigation {
     position: absolute;
     top: 2%;
-    display: block;
+   // display: none;
     height: 10%;
     width: 100%;
     background-color: transparent;
     z-index:1000;
+    
+    @include desktop {
+    display: block;
+        
+    }
     ul {
         width: 100%;
         height: 100%;
@@ -69,12 +81,58 @@
             padding:10px;
             &:hover {
                 border-bottom: 2px solid $accentPink;
+                
+            }
+            &:active {
+                color: $accentPink;
+                
             }
             @include desktop {
                 font-size: 1.2em;
             }
         }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuWrapper{
+position: relative;
+z-index: 1000;    
+    
 }
 
 .menu {
