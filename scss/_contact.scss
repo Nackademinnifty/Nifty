@@ -1,61 +1,101 @@
-body{
-	background-color: $dark;
-}
-
-.wrapper{
-	margin:10px;
-}
-
-h1{
-	color: $mainFont;
-	font: $headings;
-	margin-bottom: 20px;
-}
-
-form{
-	color:$mainFont;
-	background-color:$dark;
-	font-family: $text;
-}
-
-input{
-	font-size: $baseFont+ 20%;
-	width: 100%;
-	min-height: 40px;
-	margin-top: 10px; 
-	margin-bottom:10px;
-	color: $dark;
+#contact{
+		margin: 10px;
 	
-	//sendknapp
-	&:last-child{
-		margin-top: 20px;
-		text-transform: uppercase;
-		font-size: $baseFont + 20%;
-		width: 100%;
-		padding:10px;
-		background-color:white;//ska knappen vara helvit?
-		border-radius: 5px;
+		h1{
+			margin-bottom: 20px;
+		}
+		
+		form{
+			color:$mainFont;
+			background-color:$dark;
+			font-family: $text;
+			
+			p{
+				margin: 0;
+			}
+		}
+		
+		input{
+			font-size: $baseFont+ 20%;
+			width: 100%;
+			min-height: 40px;
+			margin-top: 5px; 
+			margin-bottom:10px;
+			color: $dark;
+			
+				//sendknapp
+				&:last-child{
+					margin-top: 20px;
+					text-transform: uppercase;
+					font-size: $baseFont + 20%;
+					width: 100%;
+					padding:10px;
+					background-color:white;//ska knappen vara helvit?
+					border: none;
+					border-radius: 5px;
+					
+					&:active{
+						background-color: red;//change color later
+					}
+				
+				}
+		}
+		
+		textarea{
+			@extend input;
+		}
+		
+		p{
+			margin: 10px;
+			background-color: $dark;
+			color: $mainFont;
+			font-size: $baseFont + 50%;
+			font-family: $text;
+		}
+		address{
+			@extend p;
+			
+			a{
+				font-style: normal;
+				text-decoration: none;
+				color: $accentPink;
+			}
+		}
+	//For tablet
+	@media screen and (min-width:#{$tablet-width}){
+	
+}
+	
+	
+	
+	//For desktop
+	@media screen and (min-width:#{$desktop-width}){
+		
+		input[type=submit]{
+			&:hover{
+				background-color: orange;
+			}
+		}
+		
+		form{
+			width: 40%;
+			float: left;
+			margin-right: 10px;
+		}
+		
+		section{
+			width: 40%;
+			float: left;
+		}
+		
+		.clear{
+			content: "";
+			display:block;
+			clear: both;
+		}
 		
 	}
-}
-
-textarea{
-	@extend input;
-}
-
-p{
-	margin: 10px;
-	background-color: $dark;
-	color: $mainFont;
-	font-size: $baseFont + 50%;
-	font-family: $text;
-}
-address{
-	@extend p;
 	
-	a{
-		font-style: normal;
-		text-decoration: none;
-		color: $accentPink;
-	}
 }
+
+
