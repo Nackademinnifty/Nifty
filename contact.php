@@ -5,7 +5,6 @@ $pageId = 'contact';
 
 
 <?php include 'incl/header.php'?>
-
 <div id="contact">
 	<h1>Contact us Now</h1>
 	<div class="clear">
@@ -33,5 +32,6 @@ $pageId = 'contact';
 </div>
 
 	
+
 
 <?php include 'incl/footer.php'?>

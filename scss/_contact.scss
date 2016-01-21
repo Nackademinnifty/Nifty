@@ -40,7 +40,7 @@
 				
 				}
 		}
-		
+
 		textarea{
 			@extend input;
 		}
@@ -63,8 +63,6 @@
 		}
 	//For tablet
 	@media screen and (min-width:#{$tablet-width}){
-	
-}
 	
 	
 	
@@ -98,4 +96,4 @@
 	
 }
 
-
+}
