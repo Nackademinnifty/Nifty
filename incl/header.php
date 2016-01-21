@@ -26,6 +26,33 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <!--Google maps API-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var markerPos = {lat: 59.341135, lng: 18.064717}; 
+            
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+                center: new google.maps.LatLng(59.341135, 18.064717),
+                zoom: 15,
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            var marker = new google.maps.Marker({
+                position: markerPos,
+                map: map,
+                title: 'Hello World!'
+            });
+
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
 </head>
 <body<?php if(isset($pageId)) echo " id='$pageId' "; ?>>
     <!--[if lt IE 8]>

@@ -15,8 +15,10 @@
             <span>.</span>
              </address>
     </div>
-    
-    <div class="map"><p>map</p></div>
+
+    <div class="map">
+        <div id="map"></div>
+    </div>
 
 
     <div class="social">
