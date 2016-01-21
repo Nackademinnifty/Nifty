@@ -16,10 +16,10 @@ $pageId = 'home';
 
 <section id="team" class="clear">
   <section class="pictures">
-    <img src="http://placehold.it/200x200">
-    <img src="http://placehold.it/200x200">
-    <img src="http://placehold.it/200x200">
-    <img src="http://placehold.it/200x200">
+    <img src="img/avatar-1.png">
+    <img src="img/avatar-6.png">
+    <img src="img/avatar-1.png">
+    <img src="img/avatar-1.png">
   </section>
   <section>
     <h2>Our team</h2>
