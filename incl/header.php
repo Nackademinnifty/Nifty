@@ -30,8 +30,11 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         function initialize() {
-            var markerPos = {lat: 59.341135, lng: 18.064717}; 
-            
+            var markerPos = {
+                lat: 59.341135,
+                lng: 18.064717
+            };
+
             var mapCanvas = document.getElementById('map');
             var mapOptions = {
                 center: new google.maps.LatLng(59.341135, 18.064717),
@@ -54,12 +57,18 @@
 
 
 </head>
-<body<?php if(isset($pageId)) echo " id='$pageId' "; ?>>
+<body<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <div class="wrapper">
+
+
+        <video autoplay loop id="bgvid">
+            <source src="polina.webm" type="video/webm">
+            <source src="img/background.mp4" type="video/mp4">
+        </video>
 
         <div class="menuWrapper">
             <div class="menu">
@@ -69,17 +78,17 @@
         </div>
 
 
-        <header <?php if(isset($pageId)) echo " id='$pageId' "; ?>>
+        <header<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
             <nav id="navigation" class="noJsNavigation">
                 <ul>
-                    <li><a id="home-" href="index.php">Home</a></li>
-                    <li><a id="contact-" href="contact.php">Contact</a></li>
-                    <li><a id="works-" href="work.php">Works</a></li>
-                    <li><a id="about-" href="about.php">About</a></li>
+                    <li><a class="home-" href="index.php">Home</a></li>
+                    <li><a class="contacts-" href="contact.php">Contact</a></li>
+                    <li><a class="works-" href="work.php">Works</a></li>
+                    <li><a class="about-" href="about.php">About</a></li>
                 </ul>
             </nav>
             <h1 id="logo">Nifty<span>.</span></h1>
 
-        </header>
+            </header>
 
-        <main>
+            <main>

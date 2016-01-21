@@ -1,8 +1,8 @@
-body#home a#home-,
-body#about a#about-,
-body#contact a#contact-,
-body#awards a#awards-,
-body#works a#works-,  {
+body.home a.home-,
+body.about a.about-,
+body.contacts a.contacts-,
+body.awards a.awards-,
+body.works a.works-,  {
 color: $accentPink;    
     
     @include desktop{

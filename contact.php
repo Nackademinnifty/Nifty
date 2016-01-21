@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Contact us';
-$pageId = 'contact';
+$pageId = 'contacts';
 ?>
 
 

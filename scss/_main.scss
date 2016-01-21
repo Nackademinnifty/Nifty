@@ -7,10 +7,9 @@
 html,
 body {
     overflow-x: hidden;
-    background-color: $dark;
+   // background-color: $dark;
     color: $mainFont;
     font-family: $text;
-   // z-index: -1; 
 }
 
 
@@ -30,12 +29,12 @@ header {
     }
 }
 
-header#contact,
-header#about,
-header#works{
- height: 50vh; 
- animation-name: shrinkHeader;
- animation-duration: 0.5s;   
+header.contacts,
+header.about,
+header.works{
+ //height: 50vh; 
+ //animation-name: shrinkHeader;
+ //animation-duration: 0.5s;   
         
 }
 
