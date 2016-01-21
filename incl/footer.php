@@ -1,8 +1,8 @@
 </main>
 <footer>
 
-
-    <div class="adress">
+    <div class="map">
+      <div class="adress">
         <address>
             <h1 id="footerLogo">Nifty<span>.</span></h1>
             <p>
@@ -14,9 +14,7 @@
             <p>111 37 Stockholm</p>
             <span>.</span>
              </address>
-    </div>
-
-    <div class="map">
+          </div>
         <div id="map"></div>
     </div>
 
