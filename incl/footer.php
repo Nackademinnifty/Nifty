@@ -2,18 +2,19 @@
 <footer>
 
     <div class="map">
-      <div class="adress">
-        <address>
-            <h1 id="footerLogo">Nifty<span>.</span></h1>
-            <p>
-                <a href="mailto:info@nifty.com">info@nifty.com</a>
-            </p>
-            <span>.</span>
-            <p>Birger Jarlgatan 57</p> 
-            <span>.</span>
-            <p>111 37 Stockholm</p>
-            <span>.</span>
-             </address>
+        <h3 id="logo">Find Us</h3>
+          <div class="adress">
+            <address>
+                <h1 id="footerLogo">Nifty<span>.</span></h1>
+                <p>
+                    <a href="mailto:info@nifty.com">info@nifty.com</a>
+                </p>
+                <span>.</span>
+                <p>Birger Jarlgatan 57</p> 
+                <span>.</span>
+                <p>111 37 Stockholm</p>
+                <span>.</span>
+            </address>
           </div>
         <div id="map"></div>
     </div>
