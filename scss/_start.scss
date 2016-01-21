@@ -3,31 +3,36 @@
     color: $mainFont;
     width: 100%;
     height: $viewportSize;
+    padding: 50px 50px;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
-    h2{font-size: 2.5em;}
-      section {
-      width: 3/4 * 90%;
-      max-height: $viewportSize;
-      padding: 10px 20px;
-      text-shadow: 
-        -1px -1px 0 rgba(0, 0, 0, .6),
-        2px 1px 3px rgba(0, 0, 0, 0.4);
-      float: left;
-    }
   }
 }
 
-.journey {
-  a {
-    text-decoration: none;
-    color: $mainFont;
-    text-align: center;
-    width: 180px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 10px;
+.journey, .portfolio {
+  h2{
+    font-size: 2.5em;
     background-color: $accentPink;
+    text-align: center;
+    transform: rotate(-.8deg);
+  }
+  section {
+    width: 3/4 * 90%;
     float: left;
+    p{line-height: 1.6em;padding: 50px 50px;background-color: black;}
+  }
+}
+
+.team, .contact {
+  h2{
+    font-size: 2.5em;
+    background-color: $accentPink;
+    text-align: center;
+    transform: rotate(.6deg);
+  }
+  section {
+    width: 3/4 * 90%;
+    float: right;
+    p{line-height: 1.6em; padding: 50px 50px;margin-right: 50px;background-color: black;}
   }
 }
 
