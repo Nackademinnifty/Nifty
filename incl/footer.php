@@ -1,10 +1,9 @@
 </main>
 <footer>
 
-    <div class="map">
-        <h3 id="logo">Find Us</h3>
-          <div class="adress">
-            <address>
+
+    <div class="adress">
+        <address>
                 <h1 id="footerLogo">Nifty<span>.</span></h1>
                 <p>
                     <a href="mailto:info@nifty.com">info@nifty.com</a>
@@ -15,7 +14,10 @@
                 <p>111 37 Stockholm</p>
                 <span>.</span>
             </address>
-          </div>
+    </div>
+
+    <div class="map">
+        <h3 id="logo">Find Us</h3>
         <div id="map"></div>
     </div>
 
