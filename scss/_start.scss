@@ -2,49 +2,61 @@
   ##{$background} {
     color: $mainFont;
     width: 100%;
+    padding: 20px 0;
     min-height: $viewportSize;
-    padding: 50px 50px;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
     section {
-      display: inline-block;
-      width: 2/4 * 90%;
+      display: block;
+      @include tabletAnddesktop {
+        display: inline-block;
+        width: 2/4 * 90%;
+      }
       vertical-align: middle;
       h2{font-size: 2.8em;background-color: $accentPink;}
-    }
-  }
-}
-
-#team {
-  section.pictures {
-    display: inline-block;
-    width: 2/4 * 90%;
-    img{
-      display: inline-block;
-      border-radius: 50px;
-      max-height: 200px;
-      max-width: 200px;
-      width: 100%;
-      height: auto;
-      box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+      p {text-shadow: 1px 1px 2px rgb(0, 0, 0);line-height: 1.6em}
     }
   }
 }
 
 #journey a {
   display: inline-block;
-    color: $mainFont;
-    text-align: center;
-    padding: 10px 0;
-    background-color: $accentPink;
-    text-decoration: none;
-    width: 160px;
-    height: 20px;
-    border-radius: 10px;
-    text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
-  &:hover {
-    background-color: lighten($accentPink, 2%);
+  color: $mainFont;
+  text-align: center;
+  padding: 10px 0;
+  background-color: $accentPink;
+  text-decoration: none;
+  width: 160px;
+  height: 20px;
+  border-radius: 10px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+    &:hover {
+      background-color: lighten($accentPink, 2%);
   }
 }
+
+
+.pictures {
+  img{
+    max-width: 1/4 * 95%;
+    max-height: 1/4 * 95%;
+    margin-top: 10px;
+    float: left;
+    @include tabletAnddesktop {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 10px;
+    height: auto;
+    transition: all .2s ease-in-out;
+    border-radius: 50px;
+    &:hover {
+    transform: scale(1.1);
+    }
+  }
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+}
+}
+
+
 
 
 
