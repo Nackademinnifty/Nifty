@@ -6,7 +6,10 @@ $pageId = 'contact';
 
 <?php include 'incl/header.php'?>
 <div id="contact">
+	<div class="wra">
+
 	<h1>Contact us Now</h1>
+	
 	<div class="clear">
 		<form>
 			<p>Name:</p>
@@ -16,18 +19,17 @@ $pageId = 'contact';
 			<textarea name="textarea" rows= "10" cols="40">Write your message here</textarea>
 			<input type="submit" value="Send">
 		</form>
-	</div>
-
-	<div class="clear">
+		
 		<section>
 			<p>You can also mail us for any thoughts or ideas, we will reply as fast as we can.</p>
 		<address>
 			<a href="mailto:info@nifty.com">Mail us here</a>
 		</address>
 
-		<p>Visit us at:</p>
-		<p>Birger Jarlsgatan 57, 111 37 Stockholm</p>
+			<p>Visit us at: </p>
+			<p><strong>Birger Jarlsgatan 57, 111 37 Stockholm</strong></p>
 	</section>
+	</div>
 	</div>
 </div>
 
