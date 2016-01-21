@@ -17,6 +17,7 @@
     </div>
 
     <div class="map">
+        <h3 id="logo">Find Us</h1>
         <div id="map"></div>
     </div>
 
