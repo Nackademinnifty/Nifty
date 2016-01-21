@@ -2,34 +2,32 @@
   .#{$background} {
     color: $mainFont;
     width: 100%;
-    height: $viewportSize - 10vh;
-    padding: 50px 50px;
+    height: $viewportSize;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
+    h2{font-size: 2.5em;}
+      section {
+      width: 3/4 * 90%;
+      max-height: $viewportSize;
+      padding: 10px 20px;
+      text-shadow: 
+        -1px -1px 0 rgba(0, 0, 0, .6),
+        2px 1px 3px rgba(0, 0, 0, 0.4);
+      float: left;
+    }
   }
 }
 
 .journey {
-  section {
-    width: 2/4 * 100%;
-    text-shadow: 
-      -1px -1px 0 rgba(0, 0, 0, .7),
-      2px 1px 3px rgba(0, 0, 0, 0.4);
-    float: left;
-    
-  }
   a {
     text-decoration: none;
     color: $mainFont;
     text-align: center;
-    width: 90px;
-    height: 20px;
+    width: 180px;
+    height: 30px;
     padding: 5px;
     border-radius: 10px;
     background-color: $accentPink;
     float: left;
   }
 }
-.team {}
-.portfolio {}
-.contact {}
 
