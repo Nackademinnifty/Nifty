@@ -30,11 +30,6 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         function initialize() {
-            var markerPos = {
-                lat: 59.341135,
-                lng: 18.064717
-            };
-
             var mapCanvas = document.getElementById('map');
             var mapOptions = {
                 center: new google.maps.LatLng(59.341135, 18.064717),
@@ -42,12 +37,6 @@
                 scrollwheel: false,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
-
-            var marker = new google.maps.Marker({
-                position: markerPos,
-                map: map,
-                title: 'Hello World!'
-            });
 
             var map = new google.maps.Map(mapCanvas, mapOptions)
         }
