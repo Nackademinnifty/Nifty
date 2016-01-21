@@ -1,32 +1,29 @@
 @each $background in $backgrounds {
-  .#{$background} {
+  ##{$background} {
     color: $mainFont;
     width: 100%;
     height: $viewportSize;
     padding: 20px 0;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
-    section{
-      h2{font-size: 3em;}
-      display: inline-block;
-      width:  2/3 * 90%;
-      margin: 10px auto;
-      padding: 10px 30px;
-      text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+    section {
+        width: 2/4 * 100%;
+      float: left;
     }
   }
 }
 
-.journey a {
-  display: inline-block;
-  color: $mainFont;
-  text-align: center;
-  padding: 10px 0;
-  background-color: $accentPink;
-  text-decoration: none;
-  width: 160px;
-  height: 20px;
-  border-radius: 10px;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+  
+#journey a {
+    display: inline-block;
+    color: $mainFont;
+    text-align: center;
+    padding: 10px 0;
+    background-color: $accentPink;
+    text-decoration: none;
+    width: 160px;
+    height: 20px;
+    border-radius: 10px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
   &:hover {
     background-color: lighten($accentPink, 2%);
   }
