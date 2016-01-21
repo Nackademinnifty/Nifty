@@ -3,18 +3,17 @@
     color: $mainFont;
     width: 100%;
     height: $viewportSize;
-    padding: 20px 0;
+    padding: 20px 50px;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
     section {
-        width: 2/4 * 100%;
+      width: 2/4 * 100%;
       float: left;
+      h2{font-size: 3em;}
     }
   }
 }
 
-  
 #journey a {
-    display: inline-block;
     color: $mainFont;
     text-align: center;
     padding: 10px 0;
@@ -24,6 +23,7 @@
     height: 20px;
     border-radius: 10px;
     text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+    float: left;
   &:hover {
     background-color: lighten($accentPink, 2%);
   }
