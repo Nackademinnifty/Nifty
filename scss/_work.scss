@@ -17,14 +17,14 @@
             margin-left: 5%;
         }
     }
-    a{
+    a {
         text-decoration: none;
     article {
         color: $brightFont;
         width: 100%;
         background-size: cover;
-        background-blend-mode: multiply;
-        background-color: darken(grey, 20%);
+        background-blend-mode: overlay;
+        background-color: $darkTransparent;
         min-height: 200px;
         &:hover {
             background-color: darken(grey, 5%);
@@ -48,13 +48,25 @@
             background-color: $accentPinkTrans;
             width: 60%;
             display: block;
+            
+            
+            @include tablet{
+            width:45%;    
+                
+            }
+        
+            
+            @include desktop {
+             width: 50%;   
+                
+            }
             h2 {
                 line-height: $lineHeight*2.5;
                 margin-left: 2%;
                 font-family: $headings;
                 font-size: $baseFont;
                 @include desktop {
-                    font-size: 2em;
+                    font-size: 1.3em;
                 }
             }
         }
