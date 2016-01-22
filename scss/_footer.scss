@@ -19,7 +19,7 @@ footer {
         @include desktop {
             height: 40%;
         }
-        address {
+        .info {
             font-style: normal;
             width: 100%;
             line-height: $lineHeight*3;
@@ -51,11 +51,11 @@ footer {
             background-size: cover;
         }
         
-        #logo {
+        .logo {
             display: none;
             @include desktop {
                 display: block;
-                font-family: $logo;
+                font-family: $headings;
                 color: $mainFont;
                 font-size: 1em;
                 top: 5%;
@@ -84,6 +84,7 @@ footer {
             color: $accentPink;
             font-size: 2em;
             width: 100%;
+            background-color: deeppink;
             #facebook,
             #twitter,
             #instagram {

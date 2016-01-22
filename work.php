@@ -9,7 +9,7 @@ $pageId = 'works';
         <section class="work">
 
             <header id="workHeader">
-                <h1>Our work</h3>
+                <h1>Our work</h1>
                 <p>At nifty we take great pride in our work.</p>
                 <p>Take a look further down to see some selected work that we are extra proud of.</p>
             </header>
@@ -17,22 +17,22 @@ $pageId = 'works';
 
             <a href="craftfood.php">
                    <article id="craftfood">
-                    <span><h2>Craftfood: Website</h2></span>
+                    <div><h2>Craftfood: Website</h2></div>
                 </article></a>
 
-            <a href="tittut.php"><article id="tittut">
-                    <span><h2>Tittut: Campain site</h2></span>
+            <a href="tittut.php">
+                   <article id="tittut">
+                    <div><h2>Tittut: Campain site</h2></div>
                 </article></a>
 
-            <a href="training365.php"><article id="training365">
-                    <span><h2>Traning 365: Site & App</h2></span>
-         
+            <a href="training365.php">
+                   <article id="training365">
+                    <div><h2>Traning 365: Site & App</h2></div>
                 </article></a>
 
-       
-
-            <a href="eko.php"><article id="eko">
-                <span><h2>Eko: Campain site</h2></span>
+            <a href="eko.php">
+               <article id="eko">
+                <div><h2>Eko: Campain site</h2></div>
             </article></a>
 
  </section>

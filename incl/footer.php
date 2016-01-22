@@ -3,7 +3,7 @@
 
 
     <div class="adress">
-        <address>
+        <div class="info">
                 <h1 id="footerLogo">Nifty<span>.</span></h1>
                 <p>
                     <a href="mailto:info@nifty.com">info@nifty.com</a>
@@ -13,11 +13,11 @@
                 <span>.</span>
                 <p>111 37 Stockholm</p>
                 <span>.</span>
-            </address>
+            </div>
     </div>
 
     <div class="map">
-        <h3 id="logo">Find Us</h3>
+        <h3 class="logo">Find Us</h3>
         <div id="map"></div>
     </div>
 

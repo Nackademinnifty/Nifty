@@ -28,10 +28,10 @@ header#pageHeader {
 header.contacts,
 header.about,
 header.works {
-    
+// display: none;   
 }
 
-#logo {
+.logo {
     font-family: $logo;
     color: $brightFont;
     font-size: 3.7em;

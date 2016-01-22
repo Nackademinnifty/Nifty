@@ -78,7 +78,7 @@
                 </ul>
             </nav>
             
-                <h1 id="logo">Nifty<span>.</span></h1>
+                <h1 class="logo">Nifty<span>.</span></h1>
                 <h3 class="currentPage"><?php echo $pageId; ?></h3>
 
 
