@@ -1,8 +1,13 @@
 .work {
+    box-sizing: border-box;
     background-color: $dark;
     header {
         margin-bottom: 15%;
         line-height: $lineHeight*2;
+        @include desktop {
+            margin-bottom: 5%;
+            text-align: center;
+        }
         h1 {
             font-family: $headings;
             margin-left: 3%;
@@ -15,8 +20,6 @@
     article {
         color: $brightFont;
         width: 100%;
-        //margin-bottom: 3%;
-        //margin-top: 3%;
         background-size: cover;
         background-blend-mode: multiply;
         background-color: darken(grey, 23%);
@@ -24,20 +27,39 @@
         &:hover {
             background-color: darken(grey, 5%);
         }
+        @include desktop {
+            box-sizing: border-box;
+            width: 49.8%;
+            min-height: 350px;
+            //background-color: darken(grey, 10%);
+            display: inline-block;
+            //border: 3px solid white;
+            margin-top: 0.5%;
+            
+        }
         p {
             width: 50%;
             line-height: $lineHeight*1.8;
             margin-left: 5%;
+            @include desktop {
+                line-height: $lineHeight*2;
+            }
         }
         h2 {
             line-height: $lineHeight*2.5;
             margin-left: 3%;
             font-family: $headings;
+            @include desktop {
+                font-size: 2.5em;
+            }
         }
         a {
             text-decoration: none;
             color: $accentPink;
             margin-left: 5%;
+            @include desktop {
+                line-height: $lineHeight*2;
+            }
         }
     }
     #eko {
