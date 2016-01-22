@@ -1,0 +1,63 @@
+.aboutIntro {
+  margin: 0 auto;
+
+  text-align: center;
+  > h2 {
+    font-size: 80px;
+  }
+}
+.employeeWrap {
+  width: $tablet-width;
+  margin: 0 auto 10px;
+  .employeeImage {
+    width: $tablet-width / 2;
+    height: $tablet-width / 2;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+//    float: left;
+  }
+}
+.employeeDesc {
+  width: $tablet-width / 2;
+  height: $tablet-width / 2;
+  margin: 0 auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: $accentPink;
+  text-align: center;
+  position: relative;
+
+//  float: right;
+  display: inline-block;
+  margin: 10px;
+  hr {
+    color: $dark;
+    background-color: $dark;
+    height: 2px;
+    border: 0;
+  }
+}
+//Profilbilder
+#victor {
+  background: url(../img/victor.jpeg) no-repeat center center;
+}
+#robin {
+  background: url(../img/robin.jpeg) no-repeat center center;
+}
+.employeeName {}
+.employeeTitle {}
+.employeeQuote {}
+.employeeProfile {}
+
+@include desktop {
+  .employeeImage {
+    float: left;
+  }
+  .employeeDesc {
+    float: right;
+    margin: 0px;
+  }
+}
