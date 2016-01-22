@@ -2,58 +2,94 @@
   ##{$background} {
     color: $mainFont;
     width: 100%;
-    padding: 20px 0;
+    min-height: 100%;
+    @include tabletAnddesktop {
     min-height: $viewportSize;
+    padding: 50px 50px;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
+    }
     section {
       display: block;
+      vertical-align: middle;
       @include tabletAnddesktop {
         display: inline-block;
         width: 2/4 * 90%;
       }
-      vertical-align: middle;
-      h2{font-size: 2.8em;background-color: $accentPink;}
-      p {text-shadow: 1px 1px 2px rgb(0, 0, 0);line-height: 1.6em}
+      h2{
+        font-size: 2.8em;
+        background-color: $accentPink;
+      }
     }
+  }
+}
+
+.text {
+  padding: 20px 20px;
+  background-color: black;
+  @include tabletAnddesktop {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.btn {
+  display: block;
+  width: 50%;
+  background-color: $accentPink;
+  color: $mainFont;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+  @include tabletAnddesktop {
+  display: inline-block;
+  width: 160px;
+  height: 20px;
+  margin-left:40%;
+  }
+  &:hover {
+   background-color: lighten($accentPink, 2%);
   }
 }
 
 #journey a {
-  display: inline-block;
-  color: $mainFont;
-  text-align: center;
-  padding: 10px 0;
-  background-color: $accentPink;
-  text-decoration: none;
-  width: 160px;
-  height: 20px;
-  border-radius: 10px;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
-    &:hover {
-      background-color: lighten($accentPink, 2%);
+  @extend .btn;
+}
+
+#team a {
+  @extend .btn;
+  @include tabletAnddesktop {
+    display: none;
   }
 }
 
+#portfolio a {
+  @extend .btn;
+}
+
+#work {
+  padding: 0 50px;
+}
 
 .pictures {
   img{
-    max-width: 1/4 * 95%;
-    max-height: 1/4 * 95%;
-    margin-top: 10px;
-    float: left;
+    display: none;
     @include tabletAnddesktop {
-    max-height: 200px;
-    max-width: 200px;
-    margin: 10px;
-    height: auto;
-    transition: all .2s ease-in-out;
-    border-radius: 50px;
+      display: inline-block;
+      max-height: 200px;
+      max-width: 200px;
+      margin: 10px;
+      height: auto;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
     &:hover {
     transform: scale(1.1);
     }
   }
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
-}
+ }
 }
 
 
