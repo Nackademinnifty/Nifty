@@ -68,7 +68,7 @@
         </div>
 
 
-        <header<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
+        <header id="pageHeader"<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
             <nav id="navigation" class="noJsNavigation">
                 <ul>
                     <li><a class="home-" href="index.php">Home</a></li>
