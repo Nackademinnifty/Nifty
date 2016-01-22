@@ -1,34 +1,10 @@
-.work {
+.project {
     box-sizing: border-box;
     background-color: $dark;
-    #workHeader {
-        margin-bottom: 15%;
-        line-height: $lineHeight*2;
-        text-align: center;
-        @include desktop {
-            margin-bottom: 5%;
-        }
-        h1 {
-            font-family: $headings;
-            margin-left: 3%;
-            line-height: $lineHeight*2.5;
-        }
-        p {
-            margin-left: 5%;
-        }
-    }
-    a{
-        text-decoration: none;
+    margin-bottom: 15%;
     article {
         color: $brightFont;
         width: 100%;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-color: darken(grey, 20%);
-        min-height: 200px;
-        &:hover {
-            background-color: darken(grey, 5%);
-        }
         @include desktop {
             box-sizing: border-box;
             width: 49.8%;
@@ -37,25 +13,19 @@
             margin-top: 0.5%;
         }
         p {
-            width: 50%;
+            //width: 50%;
             line-height: $lineHeight*1.8;
             margin-left: 5%;
             @include desktop {
                 line-height: $lineHeight*2;
             }
         }
-        span {
-            background-color: $accentPinkTrans;
-            width: 60%;
-            display: block;
-            h2 {
-                line-height: $lineHeight*2.5;
-                margin-left: 2%;
-                font-family: $headings;
-                font-size: $baseFont;
-                @include desktop {
-                    font-size: 2em;
-                }
+        h2 {
+            line-height: $lineHeight*2.5;
+            margin-left: 3%;
+            font-family: $headings;
+            @include desktop {
+                font-size: 2.5em;
             }
         }
         a {
@@ -66,8 +36,16 @@
                 line-height: $lineHeight*2;
             }
         }
-    }
-        
+        figure {
+            width: 90%;
+            margin: 0 auto;
+            a {
+                margin-left: 0;
+            }
+        }
+        img {
+            max-width: 100%;
+        }
     }
     #eko {
         background-image: url(../img/work/thumbnails/eko.jpg);
