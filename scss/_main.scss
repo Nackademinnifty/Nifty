@@ -33,12 +33,12 @@ header.works {}
 #logo {
     font-family: $logo;
     color: $brightFont;
-    font-size: 7em;
+    font-size: 4em;
     top: 5%;
     left: 2%;
     position: absolute;
     @include desktop {
-        font-size: 10em;
+        font-size: 4em;
         top: 50%;
         @include centerBoth;
     }
