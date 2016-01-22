@@ -84,6 +84,13 @@
   }
 }
 
+//Används för upplösningar över 560px
+@mixin smallTablet {
+  @media (min-width: #{$smallTablet}) {
+    @content;
+  }
+}
+
 //Används för upplösningar mellan 768 & 1023px
 @mixin tablet {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
