@@ -8,7 +8,7 @@ $pageId = 'about';
 		<h1 id="foo"></h1>
 
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="aboutTeam">
 			<h2>We work here!</h2>
 			<p>We're a small company of four hightly driven och skilled web-developers</p>
 		</section>
@@ -50,22 +50,22 @@ $pageId = 'about';
 		</section>
 
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="aboutOffers">
 			<h2>What we offer!</h2>
 			<p>Highly customizable, responsive, mobile-friendly websites that help your business grow!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="aboutAwards">
 			<h2>What we have won!</h2>
 			<p>With hard work and determination we have been awarded theese fine prizes!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="aboutPhilosophy">
 			<h2>What we belive in!</h2>
 			<p>With great customers comes great responsibility!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="aboutHistory">
 			<h2>Where we come from!</h2>
 			<p>Four highly motivated students who decided bring true beauty to the web!</p>
 		</section>
