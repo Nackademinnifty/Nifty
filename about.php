@@ -50,22 +50,22 @@ $pageId = 'about';
 		</section>
 
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="offers">
 			<h2>What we offer!</h2>
 			<p>Highly customizable, responsive, mobile-friendly websites that help your business grow!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="awards">
 			<h2>What we have won!</h2>
 			<p>With hard work and determination we have been awarded theese fine prizes!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="philosophy">
 			<h2>What we belive in!</h2>
 			<p>With great customers comes great responsibility!</p>
 		</section>
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="history">
 			<h2>Where we come from!</h2>
 			<p>Four highly motivated students who decided bring true beauty to the web!</p>
 		</section>
