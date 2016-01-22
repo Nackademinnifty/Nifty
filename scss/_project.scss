@@ -1,13 +1,12 @@
 .project {
-    box-sizing: border-box;
     background-color: $dark;
     margin-bottom: 15%;
     article {
         color: $brightFont;
         width: 100%;
+        margin: 0 auto;
         @include desktop {
-            box-sizing: border-box;
-            width: 49.8%;
+            width: 100%;
             min-height: 350px;
             display: inline-block;
             margin-top: 0.5%;
@@ -18,20 +17,21 @@
             margin-left: 5%;
             @include desktop {
                 line-height: $lineHeight*2;
+                width: 40%;
+                margin-left: 3%;
             }
         }
         h2 {
-            line-height: $lineHeight*2.5;
+            line-height: $lineHeight*2;
             margin-left: 3%;
             font-family: $headings;
             @include desktop {
-                font-size: 2.5em;
+                font-size: 2em;
             }
         }
         a {
             text-decoration: none;
             color: $accentPink;
-            margin-left: 5%;
             @include desktop {
                 line-height: $lineHeight*2;
             }
@@ -39,6 +39,14 @@
         figure {
             width: 90%;
             margin: 0 auto;
+            @include desktop {
+                width: 45%;
+                position: absolute;
+                top: 1%;
+                right: 3%;
+                overflow: hidden;
+                max-height: 380px;
+            }
             a {
                 margin-left: 0;
             }
@@ -46,18 +54,9 @@
         img {
             max-width: 100%;
             margin-top: 5%;
+            @include desktop {
+                //max-height: 570px;    
+            }
         }
-    }
-    #eko {
-        background-image: url(../img/work/thumbnails/eko.jpg);
-    }
-    #training365 {
-        background-image: url(../img/work/thumbnails/training.jpg);
-    }
-    #tittut {
-        background-image: url(../img/work/thumbnails/tittut.jpg);
-    }
-    #craftfood {
-        background-image: url(../img/work/thumbnails/craftfood.jpg);
     }
 }
