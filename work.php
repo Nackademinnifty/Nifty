@@ -9,14 +9,14 @@ $pageId = 'works';
         <section class="work">
 
             <header class="sectionHeader">
-                <h3>Our work</h3>
+                <h1>Our work</h3>
                 <p>At nifty we take great pride in our work.</p>
                 <p>Take a look further down to see some selected work that we are extra proud of.</p>
             </header>
 
 
             <article id="craftfood">
-                <h2>Project: Craftfood</h2>
+                <h2>Craftfood</h2>
                 <p>Craftfood is a restaurant that started 2015 in Stockholm...</p>
                 <a href="craftfood">Read More</a>
             </article>
@@ -30,20 +30,20 @@ $pageId = 'works';
             </article>
 
             <article id="training365">
-                <h2>Traning 365:</h2>
+                <h2>Traning 365</h2>
                 <p>Traning 365 wanted us to make a site and app for their members..</p>
-                <a href="training365.php">Training 365</a>
+                <a href="training365.php">Read More</a>
             </article>
 
-        </section>
+       
 
         <article id="eko">
-            <h2>Eko:</h2>
+            <h2>Eko</h2>
             <p>Eko is a project that wanted Swedish people to be more aware of...</p>
             <a href="eko.php">Read More</a>
         </article>
 
-
+ </section>
 
 
         <?php include 'incl/footer.php'?>

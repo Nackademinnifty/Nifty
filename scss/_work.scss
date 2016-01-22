@@ -1,8 +1,55 @@
 .work {
-    
-    header{}
-    #eko {}
-    #training365 {}
-    #tittut {}
-    #craftfood {}
+    background-color: $dark;
+    header {
+        margin-bottom: 15%;
+        line-height: $lineHeight*2;
+        h1 {
+            font-family: $headings;
+            margin-left: 3%;
+            line-height: $lineHeight*2.5;
+        }
+        p {
+            margin-left: 5%;
+        }
+    }
+    article {
+        color: $brightFont;
+        width: 100%;
+        //margin-bottom: 3%;
+        //margin-top: 3%;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: darken(grey, 23%);
+        min-height: 200px;
+        &:hover {
+            background-color: darken(grey, 5%);
+        }
+        p {
+            width: 50%;
+            line-height: $lineHeight*1.8;
+            margin-left: 5%;
+        }
+        h2 {
+            line-height: $lineHeight*2.5;
+            margin-left: 3%;
+            font-family: $headings;
+        }
+        a {
+            text-decoration: none;
+            color: $accentPink;
+            margin-left: 5%;
+        }
+    }
+    #eko {
+        background-image: url(../img/work/thumbnails/eko.jpg);
+    }
+    #training365 {
+        background-image: url(../img/work/thumbnails/training.jpg);
+    }
+    #tittut {
+        background-image: url(../img/work/thumbnails/tittut.jpg);
+    }
+    #craftfood {
+        background-image: url(../img/work/thumbnails/craftfood.jpg);
+    }
 }
