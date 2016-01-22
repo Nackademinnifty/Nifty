@@ -8,13 +8,12 @@ html,
 body {
     overflow-x: hidden;
     background-color: $dark;
+   // background-color: $darkTransparent;
     color: $mainFont;
     font-family: $text;
     z-index: -1000;
 }
 
-
-@include shrinkHeader;
 header {
     position: relative;
     top: 0;
@@ -22,26 +21,18 @@ header {
     text-align: center;
     width: 100%;
     height: 100vh;
-    
     @include desktop {
-     height: 100vh;   
-        
-        
+        height: 100vh;
     }
 }
 
 header.contacts,
 header.about,
-header.works{
- //height: 50vh; 
- //animation-name: shrinkHeader;
- //animation-duration: 0.5s;   
-        
-}
+header.works {}
 
 #logo {
     font-family: $logo;
-    color: $mainFont;
+    color: $brightFont;
     font-size: 7em;
     top: 5%;
     left: 2%;
@@ -53,6 +44,20 @@ header.works{
     }
     span {
         color: $accentPink;
+    }
+}
+
+.currentPage {
+    color: $brightFont;
+    font-size: 1em;
+    top: 25%;
+    left: 5%;
+    position: absolute;
+    text-transform: uppercase;
+    @include transition(1s);
+    
+     @include desktop {
+        display: none;
     }
 }
 

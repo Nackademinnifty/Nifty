@@ -58,7 +58,7 @@
             <source src="img/background.webm" type="video/webm">
             <source src="img/background.mp4" type="video/mp4">
         </video>
-
+        
         <div class="menuWrapper">
             <div class="menu">
                 <i id="bars" class="fa fa-bars"></i>
@@ -76,7 +76,10 @@
                     <li><a class="about-" href="about.php">About</a></li>
                 </ul>
             </nav>
-            <h1 id="logo">Nifty<span>.</span></h1>
+            
+                <h1 id="logo">Nifty<span>.</span></h1>
+                <h3 class="currentPage"><?php echo $pageId; ?></h3>
+
 
             </header>
 
