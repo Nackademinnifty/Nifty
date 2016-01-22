@@ -5,7 +5,11 @@
     padding: 20px 0;
     min-height: $viewportSize;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
-    section {
+    
+      
+    }  
+      
+      section {
       display: block;
       @include tabletAnddesktop {
         display: inline-block;
@@ -16,7 +20,7 @@
       p {text-shadow: 1px 1px 2px rgb(0, 0, 0);line-height: 1.6em}
     }
   }
-}
+
 
 #journey a {
   display: inline-block;

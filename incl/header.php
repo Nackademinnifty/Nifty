@@ -24,6 +24,7 @@
     <!-- Externtal stylesheets for fonts & icons-->
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!--Google maps API-->
@@ -58,7 +59,7 @@
             <source src="img/background.webm" type="video/webm">
             <source src="img/background.mp4" type="video/mp4">
         </video>
-
+        
         <div class="menuWrapper">
             <div class="menu">
                 <i id="bars" class="fa fa-bars"></i>
@@ -76,7 +77,10 @@
                     <li><a class="about-" href="about.php">About</a></li>
                 </ul>
             </nav>
-            <h1 id="logo">Nifty<span>.</span></h1>
+            
+                <h1 id="logo">Nifty<span>.</span></h1>
+                <h3 class="currentPage"><?php echo $pageId; ?></h3>
+
 
             </header>
 
