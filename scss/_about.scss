@@ -16,7 +16,6 @@
     -moz-border-radius: 20px;
     border-radius: 20px;
     margin: 0 auto;
-//    float: left;
   }
 }
 .employeeDesc {
@@ -29,8 +28,6 @@
   background-color: $accentPink;
   text-align: center;
   position: relative;
-
-//  float: right;
   display: inline-block;
   margin: 10px;
   hr {
@@ -46,6 +43,12 @@
 }
 #robin {
   background: url(../img/robin.jpeg) no-repeat center center;
+}
+#joel {
+  background: url(../img/joel.jpeg) no-repeat center center;
+}
+#mina {
+  background: url(../img/mina.jpeg) no-repeat center center;
 }
 .employeeName {}
 .employeeTitle {}
