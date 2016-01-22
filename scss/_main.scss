@@ -8,7 +8,6 @@ html,
 body {
     overflow-x: hidden;
     background-color: $dark;
-   // background-color: $darkTransparent;
     color: $mainFont;
     font-family: $text;
     z-index: -1000;
@@ -20,7 +19,7 @@ header#pageHeader {
     left: 0;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     @include desktop {
         height: 100vh;
     }
@@ -33,8 +32,8 @@ header.works {}
 #logo {
     font-family: $logo;
     color: $brightFont;
-    font-size: 4em;
-    top: 5%;
+    font-size: 3.7em;
+    top: 7%;
     left: 2%;
     position: absolute;
     @include desktop {
@@ -50,7 +49,7 @@ header.works {}
 .currentPage {
     color: $brightFont;
     font-size: 1em;
-    top: 25%;
+    top: 45%;
     left: 5%;
     position: absolute;
     text-transform: uppercase;
