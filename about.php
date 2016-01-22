@@ -8,7 +8,7 @@ $pageId = 'about';
 		<h1 id="foo"></h1>
 
 
-		<div class="aboutIntro">
+		<div class="aboutIntro" id="team">
 			<h2>We work here!</h2>
 			<p>We're a small company of four hightly driven och skilled web-developers</p>
 		</section>
