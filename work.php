@@ -22,7 +22,7 @@ $pageId = 'works';
 
             <a href="tittut.php">
                    <article id="tittut">
-                    <div><h2>Tittut: Campain site</h2></div>
+                    <div><h2>Tittut: Campaign site</h2></div>
                 </article></a>
 
             <a href="training365.php">
@@ -32,7 +32,7 @@ $pageId = 'works';
 
             <a href="eko.php">
                <article id="eko">
-                <div><h2>Eko: Campain site</h2></div>
+                <div><h2>Eko: Campaign site</h2></div>
             </article></a>
 
  </section>

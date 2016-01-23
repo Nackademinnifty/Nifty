@@ -119,8 +119,6 @@ footer {
     font-size: 1.2em;
     @include desktop {
         font-size: 2em;
-        top: 50%;
-        //@include centerBoth;    
     }
     span {
         color: $accentPink;

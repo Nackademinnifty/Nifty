@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Our Work';
-$pageId = 'works';
+$pageTitle = 'Training365';
+$pageId = 'Training365';
 ?>
 
 
