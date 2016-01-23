@@ -1,9 +1,7 @@
 .aboutIntro {
   margin: 0 auto;
   text-align: center;
-  > h2 {
-    font-size: 80px;
-  }
+  background-color: $accentPink;
 }
 .employeeWrap {
   padding: 0;
@@ -18,8 +16,6 @@
   .employeeImage {
     width: 40vw;
     height: 40vw;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 100%;
     margin: 20px auto;
     border: 10px solid $accentPink;
@@ -36,6 +32,10 @@
     background-color: $accentPink;
 
   }
+}
+
+#offerWrap, #awardsWrap, #philosophyWrap, #historyWrap {
+  height: 50px;
 }
 //Profilbilder
 #victor {
