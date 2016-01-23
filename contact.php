@@ -16,7 +16,7 @@ $pageId = 'contacts';
 			<input type="text" name="name">
 			<p>Email:</p>
 			<input type="email" name="mail">
-			<textarea name="textarea" rows= "10" cols="40">Write your message here</textarea>
+			<textarea name="textarea" rows= "10" cols="40" placeholder="Write your message here"></textarea>
 			<input type="submit" value="Send">
 		</form>
 		

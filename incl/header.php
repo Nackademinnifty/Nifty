@@ -54,11 +54,17 @@
 
     <div class="wrapper">
 
+        
+        <?php if ($pageId == 'home')
+        {
+        echo "<video autoplay loop id='bgvid'>
+            <source src='img/background.webm' type='video/webm'>
+            <source src='img/background.mp4' type='video/mp4'>
+        </video>";
+            
+        }?>
 
-        <video autoplay loop id="bgvid">
-            <source src="img/background.webm" type="video/webm">
-            <source src="img/background.mp4" type="video/mp4">
-        </video>
+       
         
         <div class="menuWrapper">
             <div class="menu">
@@ -68,7 +74,7 @@
         </div>
 
 
-        <header id="pageHeader"<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
+        <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId' "; ?>>
             <nav id="navigation" class="noJsNavigation">
                 <ul>
                     <li><a class="home-" href="index.php">Home</a></li>
@@ -78,7 +84,8 @@
                 </ul>
             </nav>
             
-                <h1 id="logo">Nifty<span>.</span></h1>
+                <h1 class="logo">Nifty<span>.</span></h1>
+<!--                <h1 class="logo"><?php if(isset($pageId)) echo "$pageTitle"; ?><span>.</span></h1>-->
                 <h3 class="currentPage"><?php echo $pageId; ?></h3>
 
 
