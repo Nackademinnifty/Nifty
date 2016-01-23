@@ -22,8 +22,9 @@
     -moz-border-radius: 20px;
     border-radius: 100%;
     margin: 20px auto;
-    border: 10px solid $darkTransparent;
+    border: 10px solid $accentPink;
     padding: 20px 0px 0px 20px;
+    box-sizing: border-box;
   }
 }
 .employeeDesc {
@@ -38,19 +39,19 @@
 }
 //Profilbilder
 #victor {
-  background: url(../img/victor.jpeg) no-repeat center center;
+  background: url(../img/avatar-1.png) no-repeat center center;
   background-size: cover;
 }
 #robin {
-  background: url(../img/robin.jpeg) no-repeat center center;
+  background: url(../img/avatar-1.png) no-repeat center center;
   background-size: cover;
 }
 #joel {
-  background: url(../img/joel.jpeg) no-repeat center center;
+  background: url(../img/avatar-1.png) no-repeat center center;
   background-size: cover;
 }
-#mina {
-  background: url(../img/mina.jpeg) no-repeat center center;
+#nina {
+  background: url(../img/avatar-6.png) no-repeat center center;
   background-size: cover;
 }
 .employeeName {}

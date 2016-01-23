@@ -16,11 +16,11 @@ $pageId = 'about';
 
 
 		<section class="employee">
-			<div class="employeeImage" id="victor"></div>
+			<div class="employeeImage" id="nina"></div>
 			<div class="employeeDesc">
 				<div class="employeeName">
 					<h3>Name</h3>
-					<h2>Victor Trigo Wagner</h2></div>
+					<h2>Nina Ma</h2></div>
 				<div class="employeeProfile">
 				</div>
 				<div class="employeeTitle">
@@ -38,25 +38,7 @@ $pageId = 'about';
 			<div class="employeeDesc">
 				<div class="employeeName">
 					<h3>Name</h3>
-					<h2>Christopher Walken</h2></div>
-				<div class="employeeProfile">
-				</div>
-				<div class="employeeTitle">
-					<h3>Title</h3>
-					<h2>Front-end developer</h2>
-				</div>
-				<div class="employeeQuote">
-					<h3>Quote</h3>
-					<h4>"I don't know why people eat so badly. I could eat pasta all the time, but it really is fattening. And I love ice cream, but I can't do that. There was a time, until I was in my mid-forties, when I could eat a whole pizza - and really, no effect."</h4></div>
-			</div>
-		</section>
-
-		<section class="employee">
-			<div class="employeeImage" id="mina"></div>
-			<div class="employeeDesc">
-				<div class="employeeName">
-					<h3>Name</h3>
-					<h2>Christopher Walken</h2></div>
+					<h2>Robin Zetterström</h2></div>
 				<div class="employeeProfile">
 				</div>
 				<div class="employeeTitle">
@@ -74,7 +56,25 @@ $pageId = 'about';
 			<div class="employeeDesc">
 				<div class="employeeName">
 					<h3>Name</h3>
-					<h2>Christopher Walken</h2></div>
+					<h2>Joel Sjöström</h2></div>
+				<div class="employeeProfile">
+				</div>
+				<div class="employeeTitle">
+					<h3>Title</h3>
+					<h2>Front-end developer</h2>
+				</div>
+				<div class="employeeQuote">
+					<h3>Quote</h3>
+					<h4>"I don't know why people eat so badly. I could eat pasta all the time, but it really is fattening. And I love ice cream, but I can't do that. There was a time, until I was in my mid-forties, when I could eat a whole pizza - and really, no effect."</h4></div>
+			</div>
+		</section>
+
+		<section class="employee">
+			<div class="employeeImage" id="victor"></div>
+			<div class="employeeDesc">
+				<div class="employeeName">
+					<h3>Name</h3>
+					<h2>Victor Trigo Wagner</h2></div>
 				<div class="employeeProfile">
 				</div>
 				<div class="employeeTitle">
