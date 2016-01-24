@@ -10,8 +10,11 @@ body {
     background-color: $dark;
     color: $mainFont;
     font-family: $text;
-    z-index: -1000;
+   // z-index: -1000;
+    font-size:$baseFont;
+    width:100%;
 }
+
 
 header#home {
     position: relative;
@@ -53,7 +56,7 @@ header#works {
     position: absolute;
     width:100%;
     @include desktop {
-        font-size: 4em;
+        font-size: 5em;
         top: 50%;
         position: absolute;
         top: 50%;

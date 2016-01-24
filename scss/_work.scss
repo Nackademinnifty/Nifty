@@ -23,7 +23,8 @@
         color: $brightFont;
         width: 100%;
         background-size: cover;
-        background-blend-mode: overlay;
+        background-blend-mode: multiply;
+        -webkit-background-blend-mode: multiply;
         background-color: $darkTransparent;
         min-height: 200px;
         &:hover {
