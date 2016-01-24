@@ -13,25 +13,28 @@ document.addEventListener("DOMContentLoaded", function () {
         times = document.getElementById("times");
         menu = document.getElementsByClassName("menu")[0];
 
-        if (window.matchMedia("(max-width: 1024px)").matches) {
-            menu.style.display = "initial";
-            bars.style.display = "initial";
-            navigation.className = "jsNavigation";
-        }
+
+            if (window.matchMedia("(max-width: 1024px)").matches) {
+                menu.style.display = "initial";
+                bars.style.display = "initial";
+                navigation.className = "jsNavigation";
+            }
+            
+
+
+
 
         window.onresize = function (event) {
             if (window.matchMedia("(min-width: 1024px)").matches) {
                 menu.style.display = "none";
                 bars.style.display = "none";
-                navigation.style.display ="block";
+                navigation.style.display = "block";
 
-            }
-            
-            else if (window.matchMedia("(max-width: 1024px)").matches) {
+            } else if (window.matchMedia("(max-width: 1024px)").matches) {
                 menu.style.display = "block";
                 bars.style.display = "block";
-                navigation.style.display ="none";
-                    
+                navigation.style.display = "none";
+
             }
 
         };
