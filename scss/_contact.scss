@@ -18,7 +18,6 @@
 	
 		strong{
 			font-style: italic;
-			font-size: $baseFont;
 			font-weight: inherit;
 		}
 		
@@ -32,19 +31,16 @@
 			
 				//sendknapp
 				&:last-child{
+					color: white;
 					margin-top: 20px;
 					text-transform: uppercase;
 					font-size: $baseFont + 20%;
 					width: 100%;
 					padding:10px;
-					background: white;//ska knappen vara helvit? 	
+					background: $accentPink; 	
 					border: none;
 					border-radius: 5px;
-					
-					&:active{
-						background-color: red;//change color later
-					}
-				
+					text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 				}
 		}
 
@@ -55,7 +51,7 @@
 		p{
 			background-color: $dark;
 			color: $mainFont;
-			font-size: $baseFont + 50%;
+			font-size: $baseFont + 30%;
 			font-family: $text;
 		}
 		address{
@@ -69,7 +65,7 @@
 		}
 	//For tablet
 	@media screen and (min-width:#{$tablet-width}){
-}
+	}
 
 	
 	
@@ -84,7 +80,7 @@
 
 		input[type=submit]{
 			&:hover{
-				background-color: $accentPink;
+				background-color: $accentPink - 20;
 			}
 		}
 		
@@ -104,6 +100,7 @@
 			display:table;
 			clear: both;
 		}
+		
 		
 	}
 	
