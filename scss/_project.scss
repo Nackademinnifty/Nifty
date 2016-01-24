@@ -27,6 +27,7 @@
             font-family: $headings;
             @include desktop {
                 font-size: 2em;
+                line-height: $lineHeight*1.5;
             }
         }
         a {
