@@ -10,71 +10,62 @@
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
+  #victor {
+    background: url(../img/victor.jpg) no-repeat center center;
+  }
+  #robin {
+    background: url(../img/avatar-1.png) no-repeat center center;
+  }
+  #joel {
+    background: url(../img/joel.jpg) no-repeat center center;
+  }
+  #nina {
+    background: url(../img/avatar-6.png) no-repeat center center;
+  }
   .employee {
     flex: 1 100%;
+    @include tabletAnddesktop {
+      flex: 1 50%;
+    }
+    @include desktop {
+      flex: 1 25%;
+    }
   }
-  .employeeImage {
-    width: 40vw;
-    height: 40vw;
-    border-radius: 100%;
-    margin: 20px auto;
-    border: 10px solid $accentPink;
-    padding: 20px 0px 0px 20px;
-    box-sizing: border-box;
+}
+.employeeImage {
+  width: 40vw;
+  height: 40vw;
+  margin: 20px auto;
+  border: 10px solid $accentPink;
+  padding: 20px 0 0 20px;
+  background-size: cover!important;
+  @include border-radius (50%);
+  @include box-sizing;
+  &:hover,
+  &:focus {
+    border: 5px solid $accentPink;
+  }
+  @include desktop {
+    width: 20vw;
+    height: 20vw;
   }
 }
 .employeeDesc {
   width: 80%;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
   h3 {
     background-color: $accentPink;
-
   }
 }
-
-#offerWrap, #awardsWrap, #philosophyWrap, #historyWrap {
-  height: 50px;
-}
-//Profilbilder
-#victor {
-  background: url(../img/avatar-1.png) no-repeat center center;
-  background-size: cover;
-}
-#robin {
-  background: url(../img/avatar-1.png) no-repeat center center;
-  background-size: cover;
-}
-#joel {
-  background: url(../img/joel.jpg) no-repeat center center;
-  background-size: cover;
-}
-#nina {
-  background: url(../img/avatar-6.png) no-repeat center center;
-  background-size: cover;
-}
-.employeeName {}
-.employeeTitle {}
-.employeeQuote {}
-.employeeProfile {}
-
-@include tabletAnddesktop {
-  .employeeWrap {
-    .employee {
-      flex: 1 50%;
-    }
-  }
-}
-
-@include desktop {
-  .employeeWrap {
-    .employee {
-      flex: 1 25%;
-    }
-    .employeeImage {
-      width: 20vw;
-      height: 20vw;
-    }
+#offerWrap,
+#awardsWrap,
+#philosophyWrap,
+#historyWrap {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  li {
+    margin: 20px 0;
   }
 }

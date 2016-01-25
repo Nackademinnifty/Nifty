@@ -59,7 +59,11 @@ header#works {
         color: $accentPink;
     }
 }
-
+.svglogo {
+  width: 20%;
+  position: absolute;
+  @include centerBoth;
+}
 .currentPage {
     color: $brightFont;
     font-size: 1em;
