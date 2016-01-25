@@ -82,15 +82,26 @@ $pageId = 'about';
             <h3>Highly customizable, responsive, mobile-friendly websites that help your business grow!</h3>
         </div>
         <div id="offerWrap">
-
+					<ul>
+						<li class="fa fa-bolt"></li><br />
+						<li class="fa fa-bolt"></li><br />
+						<li class="fa fa-bolt"></li><br />
+						<li class="fa fa-bolt"></li><br />
+						<li class="fa fa-bolt"></li>
+					</ul>
         </div>
 
         <div class="aboutIntro" id="aboutAwards">
             <h2>What we have won!</h2>
-            <h3>With hard work and determination we have been awarded theese fine prizes!</h3>
+            <h3>With hard work and determination we have been awarded these fine prizes!</h3>
         </div>
         <div id="awardsWrap">
-
+					<ul>
+						<li class="fa fa-trophy"> Most awesome company 2016</li><br />
+						<li class="fa fa-trophy"> Most beautiful staff</li><br />
+						<li class="fa fa-trophy"> 4W€$0M€ CODERS</li><br />
+						<li class="fa fa-trophy"> This and that</li>
+					</ul>
         </div>
 
 
@@ -99,12 +110,15 @@ $pageId = 'about';
             <h3>With great customers comes great responsibility!</h3>
         </div>
         <div id="philosophyWrap">
-
+					<ul>
+						<li class="fa fa-check"> Deliver on time</li><br />
+						<li class="fa fa-check"> Quality built in</li><br />
+					</ul>
         </div>
 
         <div class="aboutIntro" id="aboutHistory">
             <h2>Where we come from!</h2>
-            <h3>Four highly motivated students who decided bring true beauty to the web!</h3>
+            <h3>Four highly motivated students who decided to bring true beauty to the web!</h3>
         </div>
         <div id="historyWrap">
 

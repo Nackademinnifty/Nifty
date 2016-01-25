@@ -54,18 +54,18 @@
 
     <div class="wrapper">
 
-        
+
         <?php if ($pageId == 'home')
         {
         echo "<video autoplay loop id='bgvid'>
             <source src='img/background.webm' type='video/webm'>
             <source src='img/background.mp4' type='video/mp4'>
         </video>";
-            
+
         }?>
 
-       
-        
+
+
         <div class="menuWrapper">
             <div class="menu">
                 <i id="bars" class="fa fa-bars"></i>
@@ -83,8 +83,11 @@
                     <li><a class="about-" href="about.php">About</a></li>
                 </ul>
             </nav>
-            
+
                 <h1 class="logo">Nifty<span>.</span></h1>
+                <div class="svglogo">
+                  <?php include 'incl/logo.php'?>
+                </div>
 <!--                <h1 class="logo"><?php if(isset($pageId)) echo "$pageTitle"; ?><span>.</span></h1>-->
                 <h3 class="currentPage"><?php echo $pageId; ?></h3>
 
