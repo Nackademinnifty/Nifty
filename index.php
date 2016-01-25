@@ -6,35 +6,38 @@ $pageId = 'home';
 
 <?php include 'incl/header.php'?>
 
-<section class="section" id="journey">
+<!-- Company History -->
+<div class="section" id="journey">
   <section class="section">
     <h2>Our journey</h2>
     <p class="text">
       Since our founding in late 2015, our client list has already included a broad range of companies. We believe our achivements are proof of our commitment to delivering outstanding results for our clients. Our whole company is built on a great portion of passion. Simply talk to any member of our team and you will quickly sense that something is different at Nifty.
     </p>
   </section>
-  <section class="read section">
-    <a href="about.php">Read more</a>
-  </section>
-</section>
+  <div class="read section">
+    <a href="about.php#offerWrap">Read more</a>
+  </div> 
+</div> <!-- /END History -->
 
-<section class="section" id="team">
-  <section class="pictures section">
-    <img src="img/joel.jpg">
-    <img src="img/robin.jpeg">
-    <img src="img/nina.jpg">
-    <img src="img/victor.jpg">
-  </section>
+<!-- Employees -->
+<div class="section" id="team">
+  <div class="pictures section">
+    <a href="about.php#joel"><img src="img/joel.jpg" alt="Joel Sjöström" /></a>
+    <a href="about.php#robin"><img src="img/robin.jpeg" alt="Robin Zetterström"></a>
+    <a href="about.php#nina"><img src="img/nina.jpg" alt="Nina Ma"></a>
+    <a href="about.php#victor"><img src="img/victor.jpg" alt="Victor T Wagner"></a>
+  </div>
   <section class="section">
     <h2>Our team</h2>
     <p class="text">
       Meet our incredible team that make us one of the leading web development companies in the industry.
     </p>
   </section>
-  <a href="about.php">Meet our team!</a>
-</section>
+  <a class="btnCtrl" href="about.php">Meet our team!</a>
+</div> <!-- /END Employees -->
 
-<section class="section" id="portfolio">
+<!-- Our showcase -->
+<div class="section" id="portfolio">
   <section class="section">
     <h2>Our works</h2>
     <p class="text">
@@ -44,7 +47,7 @@ $pageId = 'home';
     </p>
   </section>
   <a href="work.php">View our work</a>
-</section>
+</div> <!-- /END Showcase -->
 
 
 <?php include 'incl/footer.php'?>
