@@ -8,7 +8,7 @@
     padding: 50px 50px;
     background: no-repeat center/ cover url(../img/#{$background}.jpeg);
     }
-      .section {
+      .viewportSection {
       display: block;
       vertical-align: middle;
       @include tabletAnddesktop {
@@ -23,8 +23,12 @@
   }
 }
 
+.column {
+  @extend .viewportSection;
+}
 
-.text {
+
+.paragraph {
   font-size: 1.2em;
   line-height: 1.3em;
   padding: 20px 20px;
@@ -61,7 +65,7 @@
   @extend .btn;
 }
 
-#team a {
+#team .btnCtrl {
   @extend .btn;
   @include tabletAnddesktop {
     display: none;
