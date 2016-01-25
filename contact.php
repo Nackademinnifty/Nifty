@@ -8,7 +8,7 @@ $pageId = 'contacts';
 <div id="contact">
 	<div class="wra">
 
-	<h1>Contact us Now</h1>
+	<h1>Contact us</h1>
 	
 	<div class="clear">
 		<form>
