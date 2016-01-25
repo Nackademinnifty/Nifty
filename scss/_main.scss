@@ -20,9 +20,8 @@
         text-align: center;
         width: 100%;
         height: 40vh;
-        @include tablet{
-         height: 30vh;   
-            
+        @include tablet {
+            height: 30vh;
         }
     }
     
@@ -49,16 +48,13 @@
         left: 5%;
         position: absolute;
         width: 50%;
-        @include tablet{
-         width: 40%; 
-        @include centerBoth;    
-            
-            
+        @include tablet {
+            width: 40%;
+            @include centerBoth;
         }
-        
         @include desktop {
             width: 20%;
-            @include centerBoth; 
+            @include centerBoth;
         }
     }
     
