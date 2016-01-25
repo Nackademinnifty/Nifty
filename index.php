@@ -21,8 +21,8 @@ $pageId = 'home';
 <section class="section" id="team">
   <section class="pictures section">
     <img src="img/joel.jpg">
-    <img src="img/avatar-6.png">
     <img src="img/robin.jpeg">
+    <img src="img/nina.jpg">
     <img src="img/victor.jpg">
   </section>
   <section class="section">
