@@ -84,11 +84,9 @@
                 </ul>
             </nav>
 
-                <h1 class="logo">Nifty<span>.</span></h1>
                 <div class="svglogo">
                   <?php include 'incl/logo.php'?>
                 </div>
-<!--                <h1 class="logo"><?php if(isset($pageId)) echo "$pageTitle"; ?><span>.</span></h1>-->
                 <h3 class="currentPage"><?php echo $pageId; ?></h3>
 
 
