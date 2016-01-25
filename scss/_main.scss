@@ -1,4 +1,3 @@
-//To avoid horizontal scrollbars
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +9,12 @@ body {
     background-color: $dark;
     color: $mainFont;
     font-family: $text;
-   // z-index: -1000;
     font-size:$baseFont;
     width:100%;
 }
 
 
-header#home {
+header, header#home {
     position: relative;
     top: 0;
     left: 0;
@@ -35,15 +33,8 @@ header#Craftfood,
 header#Tittut,
 header#Eko,
 header#works {
-    position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    height: 40vh;
     @include desktop {
         height: 50vh;
-        //display: none;
     }
 }
 
