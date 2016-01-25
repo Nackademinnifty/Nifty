@@ -77,7 +77,14 @@
 			margin: 0 auto;
 		}
 		
+		input{
+			font-size: $baseFont;
+		}
 
+		p{
+			font-size: $baseFont;
+		}
+				
 		input[type=submit]{
 			&:hover{
 				background-color: $accentPink - 20;
@@ -96,8 +103,8 @@
 		}
 		
 		.clear{
-			content: " ";
-			display:table;
+			content: "";
+			display: block;
 			clear: both;
 		}
 		
