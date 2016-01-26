@@ -3,9 +3,7 @@ $pageTitle = 'Nifty';
 $pageId = 'home';
 ?>
 
-
 <?php include 'incl/header.php'?>
-
 <!-- Company History -->
 <section class="viewportSection" id="journey">
   <section class="column">
@@ -48,6 +46,5 @@ $pageId = 'home';
   </section>
   <a href="work.php">View our work</a>
 </section> <!-- /END Showcase -->
-
 
 <?php include 'incl/footer.php'?>
