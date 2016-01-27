@@ -119,11 +119,11 @@ footer {
     display: block;
     font-family: $logo;
     color: $mainFont;
-    font-size: 1.2em;
+    width:10%;
     @include desktop {
         font-size: 2em;
+        @include centerHorizontal;
+        padding-bottom: 5%;
     }
-    span {
-        color: $accentPink;
-    }
+
 }
