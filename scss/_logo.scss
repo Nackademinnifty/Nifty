@@ -5,6 +5,7 @@ $delayCoeff: 0.3s;
 #svg {
   display: inline-block;
   vertical-align: middle;
+  fill: $firstColor;
   -webkit-fill: $firstColor;
   @for $i from 1 through 38 {
     polygon:nth-child(#{$i}) {
