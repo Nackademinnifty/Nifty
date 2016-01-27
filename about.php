@@ -83,10 +83,10 @@ $pageId = 'about';
         </div>
         <div id="offerWrap">
 					<ul>
-						<li class="fa fa-bolt"></li><br />
-						<li class="fa fa-bolt"></li><br />
-						<li class="fa fa-bolt"></li><br />
-						<li class="fa fa-bolt"></li><br />
+						<li class="fa fa-bolt"></li>
+						<li class="fa fa-bolt"></li>
+						<li class="fa fa-bolt"></li>
+						<li class="fa fa-bolt"></li>
 						<li class="fa fa-bolt"></li>
 					</ul>
         </div>
@@ -97,9 +97,9 @@ $pageId = 'about';
         </div>
         <div id="awardsWrap">
 					<ul>
-						<li class="fa fa-trophy"> Most awesome company 2016</li><br />
-						<li class="fa fa-trophy"> Most beautiful staff</li><br />
-						<li class="fa fa-trophy"> 4W€$0M€ CODERS</li><br />
+						<li class="fa fa-trophy"> Most awesome company 2016</li>
+                        <li class="fa fa-trophy"> Most beautiful staff</li>
+						<li class="fa fa-trophy"> 4W€$0M€ CODERS</li>
 						<li class="fa fa-trophy"> This and that</li>
 					</ul>
         </div>
@@ -111,8 +111,8 @@ $pageId = 'about';
         </div>
         <div id="philosophyWrap">
 					<ul>
-						<li class="fa fa-check"> Deliver on time</li><br />
-						<li class="fa fa-check"> Quality built in</li><br />
+						<li class="fa fa-check"> Deliver on time</li>
+						<li class="fa fa-check"> Quality built in</li>
 					</ul>
         </div>
 
