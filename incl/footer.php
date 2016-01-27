@@ -4,7 +4,7 @@
 
     <div class="adress">
         <div class="info">
-                <h1 id="footerLogo"><?php include 'incl/logo.php'?></h1>
+                <h1 id="footerLogo"><h1 id="footerLogo">Nifty<span>.</span></h1>
                 <p>
                     <a href="mailto:info@nifty.com">info@nifty.com</a>
                 </p>
