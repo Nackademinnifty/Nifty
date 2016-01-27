@@ -1,4 +1,4 @@
-<div class="svg">
+<span class="svg">
 <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 804.9 240.9" style="enable-background:new 0 0 804.9 240.9;" xml:space="preserve">
 <polygon class="st0" points="735.4,240.9 665.8,200.7 735.4,160.6 "/>
@@ -40,4 +40,4 @@
 <polygon class="st0" points="0,120.4 69.5,160.6 0,200.7 "/>
 <polygon class="st1" points="69.5,160.6 69.5,240.9 0,200.7 "/>
 </svg>
-</div>
+</span>
