@@ -5,7 +5,7 @@ $delayCoeff: 0.3s;
 #svg {
   display: inline-block;
   vertical-align: middle;
-  fill: $firstColor;
+  -webkit-fill: $firstColor;
   @for $i from 1 through 38 {
     polygon:nth-child(#{$i}) {
       animation: pweek $delayCoeff*$pathNumber linear infinite;
@@ -15,11 +15,11 @@ $delayCoeff: 0.3s;
 }
 @keyframes pweek {
   0% {
-    fill: $firstColor;
+    -webkit-fill: $firstColor;
   }
   @for $i from 1 through length($listColors) {
     #{$i*(100/length($listColors))}% {
-      fill: nth($listColors, $i);
+      -webkit-fill: nth($listColors, $i);
     }
   }
 }
