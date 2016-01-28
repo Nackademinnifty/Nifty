@@ -1,0 +1,1295 @@
+@font-face {
+  font-family: 'Times Bold';
+  src: url(../../times.ttf); }
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin & padding.
+ */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border: none; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+#contact textarea,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+html #contact textarea[type="button"],
+#contact html textarea[type="button"],
+input[type="reset"],
+#contact textarea[type="reset"],
+input[type="submit"],
+#contact textarea[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled],
+html #contact textarea[disabled],
+#contact html textarea[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+#contact textarea::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input, #contact textarea {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"], #contact textarea[type="checkbox"],
+input[type="radio"],
+#contact textarea[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button, #contact textarea[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+#contact textarea[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"], #contact textarea[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button, #contact textarea[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+#contact textarea[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+ol, ul {
+  list-style: none; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #0A0000;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+  width: 100%; }
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 40vh; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    header {
+      height: 30vh; } }
+
+@media (min-width: 1024px) {
+  header#home {
+    height: 100vh; } }
+
+@media (min-width: 1024px) {
+  header#contacts,
+  header#about,
+  header#Training365,
+  header#Craftfood,
+  header#Tittut,
+  header#Eko,
+  header#works {
+    height: 50vh; } }
+
+.svglogo {
+  top: 15%;
+  left: 5%;
+  position: absolute;
+  width: 50%; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .svglogo {
+      width: 40%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%); } }
+  @media (min-width: 1024px) {
+    .svglogo {
+      width: 20%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%); } }
+
+.currentPage {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1em;
+  top: 60%;
+  left: 5%;
+  position: absolute;
+  text-transform: uppercase;
+  -webkit-transition: 1s 0.2s ease;
+  -moz-transition: 1s 0.2s ease;
+  -o-transition: 1s 0.2s ease;
+  transition: 1s 0.2s ease; }
+  @media (min-width: 1024px) {
+    .currentPage {
+      display: none; } }
+
+main {
+  position: relative;
+  margin-top: 0; }
+
+wrapper {
+  min-height: 100%;
+  position: relative; }
+
+.clear:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+body.home a.home-,
+body.about a.about-,
+body.contacts a.contacts-,
+body.awards a.awards-,
+body.works a.works-,
+body.Training365 a.works-,
+body.Eko a.works-,
+body.Craftfood a.works-,
+body.Tittut a.works- {
+  color: #F50057; }
+  @media (min-width: 1024px) {
+    body.home a.home-,
+    body.about a.about-,
+    body.contacts a.contacts-,
+    body.awards a.awards-,
+    body.works a.works-,
+    body.Training365 a.works-,
+    body.Eko a.works-,
+    body.Craftfood a.works-,
+    body.Tittut a.works- {
+      color: rgba(255, 255, 255, 0.8);
+      border-bottom: 2px solid #F50057; } }
+
+@keyframes squeeze {
+  0% {
+    height: 75px;
+    width: 75px; }
+  10% {
+    height: 76px;
+    width: 76px; }
+  20% {
+    height: 77px;
+    width: 77px; }
+  30% {
+    height: 78px;
+    width: 78px; }
+  40% {
+    height: 79px;
+    width: 79px; }
+  50% {
+    height: 80px;
+    width: 80px; }
+  60% {
+    height: 76px;
+    width: 76px; }
+  70% {
+    height: 76px;
+    width: 76px; }
+  80% {
+    height: 76px;
+    width: 76px; }
+  90% {
+    height: 76px;
+    width: 76px; }
+  100% {
+    height: 76px;
+    width: 76px; } }
+.jsNavigation {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(38, 37, 39, 0.93);
+  position: fixed;
+  bottom: 0;
+  display: none;
+  z-index: 100; }
+  @media (min-width: 1024px) {
+    .jsNavigation {
+      display: block;
+      position: absolute;
+      top: 20px;
+      height: 10%;
+      width: 100%;
+      background-color: transparent;
+      z-index: 1000; } }
+  .jsNavigation ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin: 0 auto; }
+    .jsNavigation ul li {
+      height: 25%;
+      display: block; }
+      @media (min-width: 1024px) {
+        .jsNavigation ul li {
+          height: 100%;
+          display: inline-block; } }
+    .jsNavigation ul a {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px; }
+      .jsNavigation ul a:hover {
+        border-bottom: 2px solid #F50057; }
+      .jsNavigation ul a:active {
+        color: #F50057;
+        transform: scale(2, 3); }
+      @media (min-width: 1024px) {
+        .jsNavigation ul a {
+          font-size: 1.2em; } }
+
+.noJsNavigation {
+  position: absolute;
+  top: 20px;
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000; }
+  @media (min-width: 1024px) {
+    .noJsNavigation {
+      display: block; } }
+  .noJsNavigation ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin: 0 auto; }
+    .noJsNavigation ul li {
+      height: 25%;
+      display: inline-block; }
+      @media (min-width: 1024px) {
+        .noJsNavigation ul li {
+          height: 100%; } }
+    .noJsNavigation ul a {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px; }
+      .noJsNavigation ul a:hover {
+        border-bottom: 2px solid #F50057; }
+      .noJsNavigation ul a:active {
+        color: #F50057; }
+      @media (min-width: 1024px) {
+        .noJsNavigation ul a {
+          font-size: 1.2em; } }
+
+.menuWrapper {
+  position: relative;
+  z-index: 1000; }
+
+.menu {
+  display: none;
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  background-color: #F50057;
+  right: 5%;
+  bottom: 5%;
+  position: fixed; }
+  .menu:active {
+    background-color: #f5002e;
+    animation-name: squeeze;
+    animation-duration: 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.8); }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+      width: 90px;
+      height: 90px;
+      border-radius: 45px; } }
+  @media (min-width: 1024px) {
+    .menu {
+      display: none; } }
+  .menu #bars,
+  .menu #times {
+    display: none;
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 2000; }
+
+footer {
+  background-color: #0A0000;
+  position: relative;
+  width: 100%;
+  margin-top: 8%;
+  text-align: center;
+  height: 30%;
+  min-height: 500px; }
+  footer .adress {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 50vh; }
+    @media (min-width: 1024px) {
+      footer .adress {
+        height: 65vh; } }
+    footer .adress .info {
+      font-style: normal;
+      width: 100%;
+      line-height: 300%; }
+      @media (min-width: 1024px) {
+        footer .adress .info {
+          margin-top: 2%;
+          line-height: 300%; } }
+      footer .adress .info a,
+      footer .adress .info p,
+      footer .adress .info #contact address,
+      #contact footer .adress .info address {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 100%;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        text-decoration: none; }
+  footer .map {
+    display: none; }
+    @media (min-width: 1024px) {
+      footer .map {
+        overflow: hidden;
+        position: relative;
+        display: block;
+        margin-left: 0;
+        top: 50%;
+        width: 100%;
+        height: 90vh;
+        background-color: #000;
+        -webkit-background-blend-mode: darken;
+        background-size: cover; } }
+    footer .map .logo {
+      display: none; }
+      @media (min-width: 1024px) {
+        footer .map .logo {
+          display: block;
+          font-family: "Arvo", serif;
+          color: #fff;
+          font-size: 1em;
+          top: 5%;
+          left: 2%;
+          font-size: 5em;
+          top: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%); } }
+  footer #map {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+  footer .social {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 50vh; }
+    footer .social .sociallinks {
+      position: absolute;
+      top: 50%;
+      transform: translate(0%, -50%);
+      -webkit-transform: translate(0%, -50%);
+      color: #F50057;
+      font-size: 2em;
+      width: 100%;
+      background-color: deeppink; }
+      footer .social .sociallinks #facebook,
+      footer .social .sociallinks #twitter,
+      footer .social .sociallinks #instagram {
+        position: absolute; }
+      footer .social .sociallinks #facebook {
+        left: 25%; }
+        @media (min-width: 768px) {
+          footer .social .sociallinks #facebook {
+            left: 45%; } }
+      footer .social .sociallinks #instagram {
+        left: 50%; }
+        @media (min-width: 768px) {
+          footer .social .sociallinks #instagram {
+            left: 50%; } }
+      footer .social .sociallinks #twitter {
+        left: 75%; }
+        @media (min-width: 768px) {
+          footer .social .sociallinks #twitter {
+            left: 55%; } }
+
+#footerLogo {
+  display: block;
+  font-family: "Times Bold";
+  color: #fff;
+  width: 10%; }
+  @media (min-width: 1024px) {
+    #footerLogo {
+      font-size: 2em;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      padding-bottom: 5%; } }
+  #footerLogo span {
+    color: #F50057; }
+
+#journey {
+  color: #fff;
+  width: 100%;
+  min-height: 100%; }
+  @media (min-width: 768px) {
+    #journey {
+      min-height: 100vh;
+      padding: 50px;
+      background: no-repeat center/cover url(../img/journey.jpeg); } }
+  #journey .viewportSection, #journey .column {
+    display: block;
+    vertical-align: middle; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #journey .viewportSection, #journey .column {
+        display: inline-block;
+        width: 90%; } }
+    @media (min-width: 1024px) {
+      #journey .viewportSection, #journey .column {
+        display: inline-block;
+        width: 45%; } }
+    #journey .viewportSection h2, #journey .column h2 {
+      font-size: 2em;
+      padding: 5px;
+      background-color: #F50057; }
+
+#team {
+  color: #fff;
+  width: 100%;
+  min-height: 100%; }
+  @media (min-width: 768px) {
+    #team {
+      min-height: 100vh;
+      padding: 50px;
+      background: no-repeat center/cover url(../img/team.jpeg); } }
+  #team .viewportSection, #team .column {
+    display: block;
+    vertical-align: middle; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #team .viewportSection, #team .column {
+        display: inline-block;
+        width: 90%; } }
+    @media (min-width: 1024px) {
+      #team .viewportSection, #team .column {
+        display: inline-block;
+        width: 45%; } }
+    #team .viewportSection h2, #team .column h2 {
+      font-size: 2em;
+      padding: 5px;
+      background-color: #F50057; }
+
+#portfolio {
+  color: #fff;
+  width: 100%;
+  min-height: 100%; }
+  @media (min-width: 768px) {
+    #portfolio {
+      min-height: 100vh;
+      padding: 50px;
+      background: no-repeat center/cover url(../img/portfolio.jpeg); } }
+  #portfolio .viewportSection, #portfolio .column {
+    display: block;
+    vertical-align: middle; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #portfolio .viewportSection, #portfolio .column {
+        display: inline-block;
+        width: 90%; } }
+    @media (min-width: 1024px) {
+      #portfolio .viewportSection, #portfolio .column {
+        display: inline-block;
+        width: 45%; } }
+    #portfolio .viewportSection h2, #portfolio .column h2 {
+      font-size: 2em;
+      padding: 5px;
+      background-color: #F50057; }
+
+.paragraph {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding: 20px 20px;
+  background-color: black; }
+  @media (min-width: 768px) {
+    .paragraph {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px; } }
+
+.btn, #journey a, #team .btnCtrl, #portfolio a {
+  display: block;
+  width: 50%;
+  background-color: #F50057;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); }
+  @media (min-width: 768px) {
+    .btn, #journey a, #team .btnCtrl, #portfolio a {
+      display: inline-block;
+      width: 160px;
+      height: 20px;
+      margin-left: 15%; } }
+  .btn:hover, #journey a:hover, #team .btnCtrl:hover, #portfolio a:hover {
+    background-color: #ff005b; }
+
+@media (min-width: 768px) {
+  #team .btnCtrl {
+    display: none; } }
+
+#work {
+  padding: 0 50px; }
+
+.pictures img {
+  display: none; }
+  @media (min-width: 768px) {
+    .pictures img {
+      display: inline-block;
+      max-height: 200px;
+      max-width: 200px;
+      margin: 10px;
+      height: auto;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .pictures img:hover {
+        transform: scale(1.1); } }
+
+#contact {
+  margin: 10px; }
+  #contact h1 {
+    margin-bottom: 20px;
+    font-family: "Arvo", serif; }
+  #contact form {
+    color: #fff;
+    background-color: #0A0000;
+    font-family: "Raleway", sans-serif; }
+    #contact form p, #contact form address {
+      margin-bottom: 5px; }
+  #contact strong {
+    font-style: italic;
+    font-weight: inherit; }
+  #contact input, #contact textarea {
+    font-size: 120%;
+    width: 100%;
+    min-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #0A0000; }
+    #contact input:last-child, #contact textarea:last-child {
+      color: white;
+      margin-top: 20px;
+      text-transform: uppercase;
+      font-size: 120%;
+      width: 100%;
+      padding: 10px;
+      background: #F50057;
+      border: none;
+      border-radius: 5px;
+      text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); }
+  #contact p, #contact address {
+    background-color: #0A0000;
+    color: #fff;
+    font-size: 130%;
+    font-family: "Raleway", sans-serif; }
+  #contact address a {
+    font-style: normal;
+    text-decoration: none;
+    color: #F50057; }
+  @media screen and (min-width: 1024px) {
+    #contact .wra {
+      width: 90%;
+      margin: 0 auto; }
+    #contact input, #contact textarea {
+      font-size: 100%; }
+    #contact p, #contact address {
+      font-size: 100%; }
+    #contact input[type=submit]:hover, #contact textarea[type=submit]:hover {
+      background-color: #e10043; }
+    #contact form {
+      width: 50%;
+      float: left; }
+    #contact section {
+      width: 40%;
+      float: right; }
+    #contact .clear {
+      content: "";
+      display: block;
+      clear: both; } }
+
+video#bgvid {
+  display: none; }
+  @media (min-width: 1024px) {
+    video#bgvid {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      background: #0A0000;
+      background-size: cover;
+      opacity: 0.1;
+      filter: alpha(opacity=10); } }
+
+.work {
+  box-sizing: border-box;
+  background-color: #0A0000; }
+  .work #workHeader {
+    margin-bottom: 15%;
+    line-height: 200%;
+    text-align: center; }
+    @media (min-width: 1024px) {
+      .work #workHeader {
+        margin-bottom: 5%; } }
+    .work #workHeader h1 {
+      font-family: "Arvo", serif;
+      margin-left: 3%;
+      line-height: 250%; }
+    .work #workHeader p, .work #workHeader #contact address, #contact .work #workHeader address {
+      margin-left: 5%; }
+  .work a {
+    text-decoration: none; }
+    .work a article {
+      color: rgba(255, 255, 255, 0.8);
+      width: 100%;
+      background-size: cover;
+      -webkit-background-blend-mode: multiply;
+      background-color: rgba(88, 87, 92, 0.89);
+      min-height: 200px; }
+      .work a article:hover {
+        background-color: #737373; }
+      @media (min-width: 1024px) {
+        .work a article {
+          box-sizing: border-box;
+          width: 49.8%;
+          min-height: 350px;
+          display: inline-block;
+          margin-top: 0.5%; } }
+      .work a article p, .work a article #contact address, #contact .work a article address {
+        width: 50%;
+        line-height: 180%;
+        margin-left: 5%; }
+        @media (min-width: 1024px) {
+          .work a article p, .work a article #contact address, #contact .work a article address {
+            line-height: 200%; } }
+      .work a article div {
+        background-color: rgba(245, 0, 86, 0.7);
+        width: 60%;
+        display: block; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .work a article div {
+            width: 45%; } }
+        @media (min-width: 1024px) {
+          .work a article div {
+            width: 50%; } }
+        .work a article div h2 {
+          line-height: 250%;
+          margin-left: 2%;
+          font-family: "Arvo", serif;
+          font-size: 100%; }
+          @media (min-width: 1024px) {
+            .work a article div h2 {
+              font-size: 1.3em; } }
+      .work a article a {
+        text-decoration: none;
+        color: #F50057;
+        margin-left: 5%; }
+        @media (min-width: 1024px) {
+          .work a article a {
+            line-height: 200%; } }
+  .work #eko {
+    background-image: url(../img/work/thumbnails/eko.jpg); }
+  .work #training365 {
+    background-image: url(../img/work/thumbnails/training.jpg); }
+  .work #tittut {
+    background-image: url(../img/work/thumbnails/tittut.jpg); }
+  .work #craftfood {
+    background-image: url(../img/work/thumbnails/craftfood.jpg); }
+
+.project {
+  background-color: #0A0000;
+  margin-bottom: 15%; }
+  .project article {
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 1024px) {
+      .project article {
+        width: 100%;
+        min-height: 350px;
+        display: inline-block;
+        margin-top: 0.5%; } }
+    .project article p, .project article #contact address, #contact .project article address {
+      line-height: 180%;
+      margin-left: 5%; }
+      @media (min-width: 1024px) {
+        .project article p, .project article #contact address, #contact .project article address {
+          line-height: 200%;
+          width: 40%;
+          margin-left: 3%; } }
+    .project article h2 {
+      line-height: 200%;
+      margin-left: 3%;
+      font-family: "Arvo", serif; }
+      @media (min-width: 1024px) {
+        .project article h2 {
+          font-size: 2em;
+          line-height: 150%; } }
+    .project article a {
+      text-decoration: none;
+      color: #F50057; }
+      @media (min-width: 1024px) {
+        .project article a {
+          line-height: 200%; } }
+    .project article figure {
+      width: 90%;
+      margin: 0 auto; }
+      @media (min-width: 1024px) {
+        .project article figure {
+          width: 45%;
+          position: absolute;
+          top: 1%;
+          right: 3%;
+          overflow: hidden;
+          max-height: 380px; } }
+      .project article figure a {
+        margin-left: 0; }
+    .project article img {
+      max-width: 100%;
+      margin-top: 5%; }
+
+.aboutIntro {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F50057; }
+
+.employeeWrap {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap; }
+  .employeeWrap #victor {
+    background: url(../img/victor.jpg) no-repeat center center; }
+  .employeeWrap #robin {
+    background: url(../img/robin.jpeg) no-repeat center center; }
+  .employeeWrap #joel {
+    background: url(../img/joel.jpg) no-repeat center center; }
+  .employeeWrap #nina {
+    background: url(../img/nina.jpg) no-repeat center center; }
+  .employeeWrap .employee {
+    flex: 1 100%; }
+    @media (min-width: 768px) {
+      .employeeWrap .employee {
+        flex: 1 50%; } }
+    @media (min-width: 1024px) {
+      .employeeWrap .employee {
+        flex: 1 25%; } }
+
+.employeeImage {
+  width: 40vw;
+  height: 40vw;
+  margin: 20px auto;
+  border: 10px solid #F50057;
+  padding: 20px 0 0 20px;
+  background-size: cover !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .employeeImage:hover, .employeeImage:focus {
+    border: 5px solid #F50057; }
+  @media (min-width: 1024px) {
+    .employeeImage {
+      width: 20vw;
+      height: 20vw; } }
+
+.employeeDesc {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 10px; }
+  .employeeDesc h3 {
+    background-color: #F50057; }
+
+#offerWrap,
+#awardsWrap,
+#philosophyWrap,
+#historyWrap {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em; }
+  #offerWrap li,
+  #awardsWrap li,
+  #philosophyWrap li,
+  #historyWrap li {
+    display: block;
+    margin: 20px 0; }
+
+#svg {
+  display: inline-block;
+  vertical-align: middle;
+  fill: #C30045;
+  -webkit-fill: #C30045; }
+  #svg polygon:nth-child(1) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.3s; }
+  #svg polygon:nth-child(2) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.6s; }
+  #svg polygon:nth-child(3) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.9s; }
+  #svg polygon:nth-child(4) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.2s; }
+  #svg polygon:nth-child(5) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.5s; }
+  #svg polygon:nth-child(6) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.8s; }
+  #svg polygon:nth-child(7) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.1s; }
+  #svg polygon:nth-child(8) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.4s; }
+  #svg polygon:nth-child(9) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.7s; }
+  #svg polygon:nth-child(10) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3s; }
+  #svg polygon:nth-child(11) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.3s; }
+  #svg polygon:nth-child(12) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.6s; }
+  #svg polygon:nth-child(13) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.9s; }
+  #svg polygon:nth-child(14) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.2s; }
+  #svg polygon:nth-child(15) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.5s; }
+  #svg polygon:nth-child(16) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.8s; }
+  #svg polygon:nth-child(17) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.1s; }
+  #svg polygon:nth-child(18) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.4s; }
+  #svg polygon:nth-child(19) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.7s; }
+  #svg polygon:nth-child(20) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6s; }
+  #svg polygon:nth-child(21) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.3s; }
+  #svg polygon:nth-child(22) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.6s; }
+  #svg polygon:nth-child(23) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.9s; }
+  #svg polygon:nth-child(24) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.2s; }
+  #svg polygon:nth-child(25) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.5s; }
+  #svg polygon:nth-child(26) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.8s; }
+  #svg polygon:nth-child(27) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.1s; }
+  #svg polygon:nth-child(28) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.4s; }
+  #svg polygon:nth-child(29) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.7s; }
+  #svg polygon:nth-child(30) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9s; }
+  #svg polygon:nth-child(31) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.3s; }
+  #svg polygon:nth-child(32) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.6s; }
+  #svg polygon:nth-child(33) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.9s; }
+  #svg polygon:nth-child(34) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.2s; }
+  #svg polygon:nth-child(35) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.5s; }
+  #svg polygon:nth-child(36) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.8s; }
+  #svg polygon:nth-child(37) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 11.1s; }
+  #svg polygon:nth-child(38) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 11.4s; }
+
+@keyframes pweek {
+  0% {
+    -webkit-fill: #C30045; }
+  20% {
+    -webkit-fill: #EE0054; }
+  40% {
+    -webkit-fill: #F50057; }
+  60% {
+    -webkit-fill: #F63076; }
+  80% {
+    -webkit-fill: #F75F95; }
+  100% {
+    -webkit-fill: #C30045; } }
