@@ -120,10 +120,12 @@ footer {
     font-family: $logo;
     color: $mainFont;
     width:10%;
+    padding-bottom: 5%;
+    @include centerHorizontal;
     @include desktop {
         font-size: 2em;
         @include centerHorizontal;
-        padding-bottom: 5%;
+        
     }
     span{color: $accentPink;}
     
