@@ -742,14 +742,14 @@ footer {
   display: block;
   font-family: "Times Bold";
   color: #fff;
-  width: 10%; }
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);}
   @media (min-width: 1024px) {
     #footerLogo {
       font-size: 2em;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
       padding-bottom: 5%; } }
   #footerLogo span {
     color: #F50057; }
